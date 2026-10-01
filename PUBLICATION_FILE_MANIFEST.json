@@ -1,6 +1,6 @@
 {
   "scope": "PUBLIC_SOURCE_ONLY_NO_DATA",
-  "content_commit": "c651183e947877bbc67978fa835bbd0019733b9e",
+  "content_commit": "f10c52828bb6df61f08ea6878d5f9646a046c06f",
   "note": "Hashes cover Git-normalized published files; the manifest excludes itself.",
   "files": {
     ".env.example": "497a352cb3643eecca4d826cfe1f84269a843a76cd2441b88e3f3faa18315046",
@@ -12,7 +12,7 @@
     "LICENSE": "33d98bef3233fa90b98d29b17ba5444b997262bd7f080f660ca0b3b2dc91b663",
     "NEXT_STEPS.md": "721c5c9c7b1c3f2c071f0b4d94b3b725d684922b5f4d7595634688c4faaedcba",
     "PROJECT_HANDOFF.md": "372b8b0182863d8482a71f1cb58d1da9819b5deb3d3ae42157257672f7fb989d",
-    "README.md": "25850c0691b47ac6e2b1676aff59a6142ccbc0c0f228059fbc42c253ad748132",
+    "README.md": "f88ec5fa1ac9e0233303e26d5efb6ba92c31487ff0030d5c370e81ce3e4b7277",
     "THIRD_PARTY_NOTICES.md": "fbe8dad13862a5753b4d5cc6150a18e576323cded4c63825414abd05acc7916c",
     "assets/architecture.svg": "6e84a813363a9074441097239ad1c405ac94a214c2dfb189ee53dc796a6e4878",
     "assets/statsbomb-logo.png": "d1c382fa66c50d923bda26057e206a4b0d25e1b8a2d5ade26fb05267f12a1146",
