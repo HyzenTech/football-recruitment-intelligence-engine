@@ -1,0 +1,2953 @@
+{
+  "audit_date": "2026-09-30",
+  "timezone": "Asia/Jakarta",
+  "repository": "https://github.com/hudl/open-data",
+  "commit": "4b73468fc5b0f1950f9f66fada70ad3a4f9327cb",
+  "tree_truncated": false,
+  "catalog_rows": 80,
+  "competition_ids": 24,
+  "listed_unique_matches": 3961,
+  "file_manifest": [
+    {
+      "url": "https://api.github.com/repos/hudl/open-data/commits/master",
+      "file": "work\\audit\\commit.json",
+      "sha256": "baaa5c056e3beb331e29c6eae1b4238a33e81ce525ab4c44681d6849f441b41a",
+      "bytes": 6784,
+      "retrieved_utc": "2026-09-30T07:46:19.803550+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/competitions.json",
+      "file": "work\\audit\\competitions.json",
+      "sha256": "e6cd42f5d8956d6aa30fb917ce8d4c3b3df1879a93f02f8feba820930a6971fa",
+      "bytes": 34887,
+      "retrieved_utc": "2026-09-30T07:46:19.826046+00:00"
+    },
+    {
+      "url": "https://api.github.com/repos/hudl/open-data/git/trees/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb?recursive=1",
+      "file": "work\\audit\\tree.json",
+      "sha256": "c634c02fac3992bf9645ae84aee0ed8d10eed57bf99368c1e8e8140562260039",
+      "bytes": 2095982,
+      "retrieved_utc": "2026-09-30T07:46:19.853274+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/9/27.json",
+      "file": "work\\audit\\data\\matches\\9\\27.json",
+      "sha256": "1fd6519dc64f268e40395a2e65c82f1feb9974c2705253a2af2c37aa34a5655d",
+      "bytes": 61666,
+      "retrieved_utc": "2026-09-30T07:46:19.886648+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/9/281.json",
+      "file": "work\\audit\\data\\matches\\9\\281.json",
+      "sha256": "13dff90f126d9f73da410ae3292b2773744657d3ba968a2b7a9c02135033581c",
+      "bytes": 63079,
+      "retrieved_utc": "2026-09-30T07:46:19.886648+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/16/4.json",
+      "file": "work\\audit\\data\\matches\\16\\4.json",
+      "sha256": "eb1f3c0872ce01094f0378e5d80c9782164964d82917a23ae76a93e9c0b0da8e",
+      "bytes": 1878,
+      "retrieved_utc": "2026-09-30T07:46:19.886648+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/1267/107.json",
+      "file": "work\\audit\\data\\matches\\1267\\107.json",
+      "sha256": "0c5a7fdd63c969916c078f89fbd8257c834a2cdb486e56ec64c08354ea3c87de",
+      "bytes": 97188,
+      "retrieved_utc": "2026-09-30T07:46:19.896609+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/16/27.json",
+      "file": "work\\audit\\data\\matches\\16\\27.json",
+      "sha256": "485ff0a3537a0067975605c8ec704a0b4f09d8db36c02252b3949cf153822055",
+      "bytes": 1786,
+      "retrieved_utc": "2026-09-30T07:46:19.912605+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/16/1.json",
+      "file": "work\\audit\\data\\matches\\16\\1.json",
+      "sha256": "53bb99a0f603816cea50986e255fb51841376c6c655a57de44642541b46c495a",
+      "bytes": 1817,
+      "retrieved_utc": "2026-09-30T07:46:19.912605+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/16/2.json",
+      "file": "work\\audit\\data\\matches\\16\\2.json",
+      "sha256": "9d7191d1758c5ec56ed8947bbf30b7fa03797fb2015ead77bd1f7a36c0c53b03",
+      "bytes": 1756,
+      "retrieved_utc": "2026-09-30T07:46:19.916540+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/16/26.json",
+      "file": "work\\audit\\data\\matches\\16\\26.json",
+      "sha256": "d7776327dc611da04b70c2bb362b5c154acde4f388c897a25aa13a92a5aa7be9",
+      "bytes": 1783,
+      "retrieved_utc": "2026-09-30T07:46:19.917535+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/16/24.json",
+      "file": "work\\audit\\data\\matches\\16\\24.json",
+      "sha256": "2f37150f5a0efa78b58db0ec527329946a5dcca7ce55fc4020de304bd00bdc6e",
+      "bytes": 1759,
+      "retrieved_utc": "2026-09-30T07:46:19.926542+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/16/25.json",
+      "file": "work\\audit\\data\\matches\\16\\25.json",
+      "sha256": "fd7b018574e64a9a779dcd5936606ecbaaab10f5fcf558c7358b11c01f8d00d1",
+      "bytes": 1781,
+      "retrieved_utc": "2026-09-30T07:46:19.936263+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/16/23.json",
+      "file": "work\\audit\\data\\matches\\16\\23.json",
+      "sha256": "3e2d9dc2ab7fac8882f6e5861b0af1d5ffa2e8c2da2285bc7ba8258d614e6063",
+      "bytes": 1753,
+      "retrieved_utc": "2026-09-30T07:46:19.953808+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/16/41.json",
+      "file": "work\\audit\\data\\matches\\16\\41.json",
+      "sha256": "019a57928448032d8c1bc3e02d67704ecabb544469376e2c27636b732fc8e24c",
+      "bytes": 1850,
+      "retrieved_utc": "2026-09-30T07:46:19.954189+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/16/39.json",
+      "file": "work\\audit\\data\\matches\\16\\39.json",
+      "sha256": "1127a59efd5352c9e8bf0af2aacc2940f3333d3d53c2f2e20ab51dfcd36c0b00",
+      "bytes": 1850,
+      "retrieved_utc": "2026-09-30T07:46:19.961248+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/16/37.json",
+      "file": "work\\audit\\data\\matches\\16\\37.json",
+      "sha256": "2f6c045f4a046d2a2302b2c8eb58ad778b35d5114b9c22d31f03b1828042b334",
+      "bytes": 1703,
+      "retrieved_utc": "2026-09-30T07:46:19.962248+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/16/76.json",
+      "file": "work\\audit\\data\\matches\\16\\76.json",
+      "sha256": "af485f18875bfc180f58d9697266b49a47dfdc40569c36a2cdeb76f8b98b3bd6",
+      "bytes": 1418,
+      "retrieved_utc": "2026-09-30T07:46:19.969781+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/16/44.json",
+      "file": "work\\audit\\data\\matches\\16\\44.json",
+      "sha256": "4313089c2d57af11368bc6b32cdd939f0124d6b8c8b085d4f190b8de5db88fbd",
+      "bytes": 1712,
+      "retrieved_utc": "2026-09-30T07:46:19.970793+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/16/21.json",
+      "file": "work\\audit\\data\\matches\\16\\21.json",
+      "sha256": "cae41a65afc48072d9ed1fb4c7f15afe710713be303a0bdedfd1ee75714789f1",
+      "bytes": 1786,
+      "retrieved_utc": "2026-09-30T07:46:19.974794+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/16/71.json",
+      "file": "work\\audit\\data\\matches\\16\\71.json",
+      "sha256": "8b93c9f4aea3157bed17c799798020f42e0f0b5bbf58de4e9aa4b64103a35aa0",
+      "bytes": 1842,
+      "retrieved_utc": "2026-09-30T07:46:19.986979+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/16/277.json",
+      "file": "work\\audit\\data\\matches\\16\\277.json",
+      "sha256": "ae3fbfb9eae7d1f7255bad0c119af51bbbb6d36a0670fb9d1aeaee2c4839e45d",
+      "bytes": 1690,
+      "retrieved_utc": "2026-09-30T07:46:19.987982+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/16/276.json",
+      "file": "work\\audit\\data\\matches\\16\\276.json",
+      "sha256": "0229c663c297e2d0a13cd0b206a05bda89332199f4c9eca59ed65c9c863bf7c8",
+      "bytes": 1819,
+      "retrieved_utc": "2026-09-30T07:46:19.993846+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/87/84.json",
+      "file": "work\\audit\\data\\matches\\87\\84.json",
+      "sha256": "1122f16794ed14da4a16cb2dca9b28f0bb3dbf43966c34e7a0250a3e0fa536c3",
+      "bytes": 1851,
+      "retrieved_utc": "2026-09-30T07:46:19.995847+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/223/282.json",
+      "file": "work\\audit\\data\\matches\\223\\282.json",
+      "sha256": "058380b9fe90a51f4a15beb35db08cb6e7f925c840d4d7b5ceb7103da878c857",
+      "bytes": 60043,
+      "retrieved_utc": "2026-09-30T07:46:20.006786+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/87/268.json",
+      "file": "work\\audit\\data\\matches\\87\\268.json",
+      "sha256": "8d12e1e0dde6fb74bb39234ff0b924a20e8ef2f349dfe330175158d475f63891",
+      "bytes": 1875,
+      "retrieved_utc": "2026-09-30T07:46:20.009797+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/87/279.json",
+      "file": "work\\audit\\data\\matches\\87\\279.json",
+      "sha256": "68fe3ad4d595a88bd014b3b8f7d72704922e894759ab74a35462aabb19683031",
+      "bytes": 1807,
+      "retrieved_utc": "2026-09-30T07:46:20.012787+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/37/90.json",
+      "file": "work\\audit\\data\\matches\\37\\90.json",
+      "sha256": "a9ea5e5e3c6f7b2e070ab9c3f3c23d6757545d7a6aa81fa4fbb9c443218597c2",
+      "bytes": 243008,
+      "retrieved_utc": "2026-09-30T07:46:20.026995+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/37/42.json",
+      "file": "work\\audit\\data\\matches\\37\\42.json",
+      "sha256": "d5d01eb688de0dea557ad39ace71e1ba6a7781f9a815011593c48f6f9cfe98a0",
+      "bytes": 160957,
+      "retrieved_utc": "2026-09-30T07:46:20.033677+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/37/281.json",
+      "file": "work\\audit\\data\\matches\\37\\281.json",
+      "sha256": "f0f3a5509f0ca9a1b5315b3a78d86d1c4c6909be5d16f2999c2d2295d6f3a22e",
+      "bytes": 242312,
+      "retrieved_utc": "2026-09-30T07:46:20.035701+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/1470/274.json",
+      "file": "work\\audit\\data\\matches\\1470\\274.json",
+      "sha256": "52b5349658d57fd29a78d30875002de0ed0f2553a9983a3700ef7f77d5504607",
+      "bytes": 1883,
+      "retrieved_utc": "2026-09-30T07:46:20.055145+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/37/4.json",
+      "file": "work\\audit\\data\\matches\\37\\4.json",
+      "sha256": "c1e053daa38fa2c9f46ac75a40648da8955a711170250de847ccb98e2fd109ed",
+      "bytes": 190943,
+      "retrieved_utc": "2026-09-30T07:46:20.057160+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/43/106.json",
+      "file": "work\\audit\\data\\matches\\43\\106.json",
+      "sha256": "b9d7516dc9919a825f04c204ca85487958c8a2431e84140a48e944934661efc7",
+      "bytes": 119132,
+      "retrieved_utc": "2026-09-30T07:46:20.061590+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/43/3.json",
+      "file": "work\\audit\\data\\matches\\43\\3.json",
+      "sha256": "f89dbd4aedcaf9c9e4ec9d8e745d5d54596500ec357d7489c914a2f126805adf",
+      "bytes": 114527,
+      "retrieved_utc": "2026-09-30T07:46:20.072899+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/43/55.json",
+      "file": "work\\audit\\data\\matches\\43\\55.json",
+      "sha256": "dfebe4b357c03af5e12a91988f9231d43b9bf8d052b31bbdb65bcb995a5341f9",
+      "bytes": 1860,
+      "retrieved_utc": "2026-09-30T07:46:20.076486+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/43/54.json",
+      "file": "work\\audit\\data\\matches\\43\\54.json",
+      "sha256": "c5ddb2b7899417e5b1b80ba91ed15dac32a9f03a00358b392daa3dfd168bde50",
+      "bytes": 5392,
+      "retrieved_utc": "2026-09-30T07:46:20.080485+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/43/51.json",
+      "file": "work\\audit\\data\\matches\\43\\51.json",
+      "sha256": "5bf18dca74e0de7440ba2b5ff8562059a09c0f5950c9fefaf1278bc37191c77c",
+      "bytes": 10847,
+      "retrieved_utc": "2026-09-30T07:46:20.088483+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/43/272.json",
+      "file": "work\\audit\\data\\matches\\43\\272.json",
+      "sha256": "39b5beeb3a7424b3d09c0778a23cbe7cd96673516e5de39ab3742d6e37c51e78",
+      "bytes": 11072,
+      "retrieved_utc": "2026-09-30T07:46:20.093480+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/43/270.json",
+      "file": "work\\audit\\data\\matches\\43\\270.json",
+      "sha256": "c6ef9598ced247d79cf5b0cbceca57d39b71cb0ba461251362c659549d95de2b",
+      "bytes": 1678,
+      "retrieved_utc": "2026-09-30T07:46:20.098815+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/135/281.json",
+      "file": "work\\audit\\data\\matches\\135\\281.json",
+      "sha256": "78d01ecb20035bb8bbd94001065ec0f92ea747cb053b4aafca8b1051be12a7d3",
+      "bytes": 243925,
+      "retrieved_utc": "2026-09-30T07:46:20.103806+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/43/269.json",
+      "file": "work\\audit\\data\\matches\\43\\269.json",
+      "sha256": "4d0cf1a1a667c43f96afed244848a8b379ac4ebe633c4bc7ef666d05c51ee3c4",
+      "bytes": 3643,
+      "retrieved_utc": "2026-09-30T07:46:20.107808+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/1238/108.json",
+      "file": "work\\audit\\data\\matches\\1238\\108.json",
+      "sha256": "118501bdae13189c73e453177374b1f10ad4e0aa768c8d67a3e1251cc0255fd4",
+      "bytes": 213123,
+      "retrieved_utc": "2026-09-30T07:46:20.116282+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/11/90.json",
+      "file": "work\\audit\\data\\matches\\11\\90.json",
+      "sha256": "37f6d9026f9ea9ce6c53ebbcc7a349bab42ed0cde9c2bbb15dfb94e664949ba9",
+      "bytes": 64041,
+      "retrieved_utc": "2026-09-30T07:46:20.125779+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/11/42.json",
+      "file": "work\\audit\\data\\matches\\11\\42.json",
+      "sha256": "1002d78125854dc9c9e0fb4450cd2605213b1a3c93797f7a722d77de42cedc8b",
+      "bytes": 57716,
+      "retrieved_utc": "2026-09-30T07:46:20.130248+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/11/1.json",
+      "file": "work\\audit\\data\\matches\\11\\1.json",
+      "sha256": "ac2b71812837bfabc08d538faee5dae6ae4cfbc4c03e2b8867d2d31a9eb379ac",
+      "bytes": 66269,
+      "retrieved_utc": "2026-09-30T07:46:20.140269+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/11/4.json",
+      "file": "work\\audit\\data\\matches\\11\\4.json",
+      "sha256": "5406a8517de316b3b8ccf225a7f77f6ce48b4fa6a3aa4385aa7bf4651ce84706",
+      "bytes": 61284,
+      "retrieved_utc": "2026-09-30T07:46:20.145540+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/11/2.json",
+      "file": "work\\audit\\data\\matches\\11\\2.json",
+      "sha256": "f34be8ff144e889af756082410c9357dcadd380aa13f8ec85a1b344411f8722c",
+      "bytes": 61437,
+      "retrieved_utc": "2026-09-30T07:46:20.158066+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/11/27.json",
+      "file": "work\\audit\\data\\matches\\11\\27.json",
+      "sha256": "4e2074c633559f3b88e9593a752d8d15d9d9ba0d6c8a25316a68ec6526b4d14b",
+      "bytes": 702673,
+      "retrieved_utc": "2026-09-30T07:46:20.161066+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/11/26.json",
+      "file": "work\\audit\\data\\matches\\11\\26.json",
+      "sha256": "cbb307c273c20f3401ae5a18dcddb34cb76a4ee910503f947025a92df3412c4b",
+      "bytes": 68347,
+      "retrieved_utc": "2026-09-30T07:46:20.164652+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/11/24.json",
+      "file": "work\\audit\\data\\matches\\11\\24.json",
+      "sha256": "ffe52aa5b2daaefd8f1a8a480575ef0caa4998c4eb61792f404a99720c87f0a2",
+      "bytes": 46389,
+      "retrieved_utc": "2026-09-30T07:46:20.189031+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/11/25.json",
+      "file": "work\\audit\\data\\matches\\11\\25.json",
+      "sha256": "cb8a0255157fef62e30d6bcdd9d42973d77fc865f901454a47d435a9200fb551",
+      "bytes": 56279,
+      "retrieved_utc": "2026-09-30T07:46:20.190040+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/11/23.json",
+      "file": "work\\audit\\data\\matches\\11\\23.json",
+      "sha256": "cd25028cbd799dee2ef76fd11b79865d950374b0c938cd36d0641c73987f5490",
+      "bytes": 68456,
+      "retrieved_utc": "2026-09-30T07:46:20.199120+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/11/22.json",
+      "file": "work\\audit\\data\\matches\\11\\22.json",
+      "sha256": "b2333589ea2a9ba1b8d74d129f54c4706fd3e2b56847c01a9a18301df027867c",
+      "bytes": 60918,
+      "retrieved_utc": "2026-09-30T07:46:20.208594+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/11/21.json",
+      "file": "work\\audit\\data\\matches\\11\\21.json",
+      "sha256": "cdaadea54f8f6adc114b736482b8f65d24ffd8ae11eb4a0824dbbb947e698c77",
+      "bytes": 64638,
+      "retrieved_utc": "2026-09-30T07:46:20.220741+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/11/41.json",
+      "file": "work\\audit\\data\\matches\\11\\41.json",
+      "sha256": "1b13d9d1ca35b0024ec8a2b4b2d03dd4820952ecb12f37111a9b0081753b9345",
+      "bytes": 56770,
+      "retrieved_utc": "2026-09-30T07:46:20.221790+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/11/40.json",
+      "file": "work\\audit\\data\\matches\\11\\40.json",
+      "sha256": "fc03587c12dffc5952b915dcf920a5556148f6deac5062466a9a3a41fedcbe8e",
+      "bytes": 49855,
+      "retrieved_utc": "2026-09-30T07:46:20.235576+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/11/39.json",
+      "file": "work\\audit\\data\\matches\\11\\39.json",
+      "sha256": "e8f2580376cb588a62c296564a41ad3a8f88580606fd85720426dee0af68bd56",
+      "bytes": 47197,
+      "retrieved_utc": "2026-09-30T07:46:20.242575+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/11/38.json",
+      "file": "work\\audit\\data\\matches\\11\\38.json",
+      "sha256": "be447aac4d614dc022488207f133a36bacaa13595ab09cb710190cf300780a68",
+      "bytes": 30064,
+      "retrieved_utc": "2026-09-30T07:46:20.246959+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/11/278.json",
+      "file": "work\\audit\\data\\matches\\11\\278.json",
+      "sha256": "b27b46f4554ba92bf7ddda20a9724495e218e5ab3628bc0f2cbfd9f1cc5ba63e",
+      "bytes": 1243,
+      "retrieved_utc": "2026-09-30T07:46:20.262262+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/11/37.json",
+      "file": "work\\audit\\data\\matches\\11\\37.json",
+      "sha256": "eea8a3631fbd162d3fa0acfe004260407fcff5d03de3552650d97c9f4add5b4e",
+      "bytes": 12950,
+      "retrieved_utc": "2026-09-30T07:46:20.267480+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/182/281.json",
+      "file": "work\\audit\\data\\matches\\182\\281.json",
+      "sha256": "ea93b27a4d1101ba62792c88b5770bdacd904cefdf38671382698f5c2298628a",
+      "bytes": 449056,
+      "retrieved_utc": "2026-09-30T07:46:20.278502+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/81/48.json",
+      "file": "work\\audit\\data\\matches\\81\\48.json",
+      "sha256": "7d9cdc7182642f977360cb6ba6e6f7e391603011a9dbabd81d3e5beacdd391c9",
+      "bytes": 1726,
+      "retrieved_utc": "2026-09-30T07:46:20.287348+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/81/275.json",
+      "file": "work\\audit\\data\\matches\\81\\275.json",
+      "sha256": "8af094567f1e6839a373bde431972e25f28cce00cae70bbcf5c90ad5cd1c0cb1",
+      "bytes": 1857,
+      "retrieved_utc": "2026-09-30T07:46:20.288350+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/7/108.json",
+      "file": "work\\audit\\data\\matches\\7\\108.json",
+      "sha256": "a3b2c322f18a621305720bbf79d68f581441de8657ca53b33901fcf867bf0c0f",
+      "bytes": 48647,
+      "retrieved_utc": "2026-09-30T07:46:20.302527+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/7/27.json",
+      "file": "work\\audit\\data\\matches\\7\\27.json",
+      "sha256": "733c7cf47bd7a19d9acae5add722c32b404664d949377057a280bd0b0f0d2464",
+      "bytes": 667360,
+      "retrieved_utc": "2026-09-30T07:46:20.304586+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/7/235.json",
+      "file": "work\\audit\\data\\matches\\7\\235.json",
+      "sha256": "8cab2c24952ef2668d57bb7de6c2ba93227a38fba3a3dcd9d425e5749f515f8a",
+      "bytes": 58817,
+      "retrieved_utc": "2026-09-30T07:46:20.322139+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/44/107.json",
+      "file": "work\\audit\\data\\matches\\44\\107.json",
+      "sha256": "40d2d668c9f0ac26349dd268ee3325b011031f6322612d0b728b80a1b3c6ff6d",
+      "bytes": 11911,
+      "retrieved_utc": "2026-09-30T07:46:20.325137+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/49/3.json",
+      "file": "work\\audit\\data\\matches\\49\\3.json",
+      "sha256": "33f87c47cc0d08b842ed052d84a7c7ff0f2b685850173595d72680bd8581dc8f",
+      "bytes": 67121,
+      "retrieved_utc": "2026-09-30T07:46:20.332664+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/116/68.json",
+      "file": "work\\audit\\data\\matches\\116\\68.json",
+      "sha256": "64b84ea85a8eaa7004461f9125032056e3e110d614508fd147ac2b4ac9f7cd68",
+      "bytes": 1939,
+      "retrieved_utc": "2026-09-30T07:46:20.335672+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/49/107.json",
+      "file": "work\\audit\\data\\matches\\49\\107.json",
+      "sha256": "75e333e1b196e60f62de86338eed82232bb1432e3f6bf7bafe867c9fdf8392b9",
+      "bytes": 262038,
+      "retrieved_utc": "2026-09-30T07:46:20.348571+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/16/22.json",
+      "file": "work\\audit\\data\\matches\\16\\22.json",
+      "sha256": "cd68b20941aebee27b76c40c89a5eec81a731dde762ed2d9f637799587892fd8",
+      "bytes": 1774,
+      "retrieved_utc": "2026-09-30T07:46:20.353089+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/2/44.json",
+      "file": "work\\audit\\data\\matches\\2\\44.json",
+      "sha256": "bb4dda2763385050725507de76719f11d506b14a66148c7348950a02eadfcf35",
+      "bytes": 63192,
+      "retrieved_utc": "2026-09-30T07:46:20.355089+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/2/27.json",
+      "file": "work\\audit\\data\\matches\\2\\27.json",
+      "sha256": "e07d6d360b30e0cd17f9aeea0db1502d2a5666d298f1b44b83a2d2f21ba3d21b",
+      "bytes": 698179,
+      "retrieved_utc": "2026-09-30T07:46:20.356514+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/12/86.json",
+      "file": "work\\audit\\data\\matches\\12\\86.json",
+      "sha256": "87281e46919ec41d383a864a0d1f767507542fc77c221135cd7569263dc60f29",
+      "bytes": 1797,
+      "retrieved_utc": "2026-09-30T07:46:20.366097+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/131/281.json",
+      "file": "work\\audit\\data\\matches\\131\\281.json",
+      "sha256": "9065d0279c94718cfb687306c4a329200783bd19e9f5796af2038ccbc86ae0fe",
+      "bytes": 238951,
+      "retrieved_utc": "2026-09-30T07:46:20.372645+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/55/282.json",
+      "file": "work\\audit\\data\\matches\\55\\282.json",
+      "sha256": "70aa07d8a73e899d501c3edcd39b4bea0d4ae1d48bce7b59c4619869a13adc1b",
+      "bytes": 93280,
+      "retrieved_utc": "2026-09-30T07:46:20.376660+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/55/43.json",
+      "file": "work\\audit\\data\\matches\\55\\43.json",
+      "sha256": "6467df80bd2abd7698ab84a6409523c573d2aad25462f1cbae90efdeb29831b6",
+      "bytes": 93844,
+      "retrieved_utc": "2026-09-30T07:46:20.378655+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/12/27.json",
+      "file": "work\\audit\\data\\matches\\12\\27.json",
+      "sha256": "613cd3cc70699ba613cb1b3c27b4c8a01b0b5fa28415e09c928d020208905c7a",
+      "bytes": 686900,
+      "retrieved_utc": "2026-09-30T07:46:20.380657+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/35/75.json",
+      "file": "work\\audit\\data\\matches\\35\\75.json",
+      "sha256": "9891da730f135b24a1683d4580ae0bfbb39a54af21341e3f8b42cd5f60117bcf",
+      "bytes": 5082,
+      "retrieved_utc": "2026-09-30T07:46:20.393626+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/53/106.json",
+      "file": "work\\audit\\data\\matches\\53\\106.json",
+      "sha256": "09b7f387ae4288a2b665c7564d19668643913104b98f041c39fd895f62da37e7",
+      "bytes": 57950,
+      "retrieved_utc": "2026-09-30T07:46:20.397290+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/53/315.json",
+      "file": "work\\audit\\data\\matches\\53\\315.json",
+      "sha256": "e3cb69837963e9c87ac705eb74f995920e36a69a8a7775caa85f5f8ae3da03a8",
+      "bytes": 58200,
+      "retrieved_utc": "2026-09-30T07:46:20.398290+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/72/107.json",
+      "file": "work\\audit\\data\\matches\\72\\107.json",
+      "sha256": "55af7b1e0ba323e8b277467673856cf1549417159d677ba11718814bfa19f9b9",
+      "bytes": 120329,
+      "retrieved_utc": "2026-09-30T07:46:20.410375+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/matches/72/30.json",
+      "file": "work\\audit\\data\\matches\\72\\30.json",
+      "sha256": "7051c0aa9bef4d726fa4068eaa2185d16dcc3d04f2c346d9fb6f17e770a3aa4a",
+      "bytes": 94940,
+      "retrieved_utc": "2026-09-30T07:46:20.413375+00:00"
+    },
+    {
+      "path": "doc/Open Data Events v4.0.0.pdf",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/doc/Open%20Data%20Events%20v4.0.0.pdf",
+      "sha256": "05de42cc76b0c9cd26213d8e5c72610cac7d4d92c9c2ac878073a565dbb6c44a",
+      "bytes": 384530
+    },
+    {
+      "path": "doc/Open Data Lineups v2.0.0.pdf",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/doc/Open%20Data%20Lineups%20v2.0.0.pdf",
+      "sha256": "95cce126e28bd65b7b7c2530fdf9ae2bc4bf9ef512f4edecfe7da52dd07820ee",
+      "bytes": 146148
+    },
+    {
+      "path": "doc/StatsBomb Open Data Specification v1.1.pdf",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/doc/StatsBomb%20Open%20Data%20Specification%20v1.1.pdf",
+      "sha256": "d5a8267939c5db35a9501b1a272cc9861a2bb3bef2f53c723d4a43ec1f5ef477",
+      "bytes": 722855
+    },
+    {
+      "path": "doc/Open Data Matches v3.0.0.pdf",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/doc/Open%20Data%20Matches%20v3.0.0.pdf",
+      "sha256": "a22cb1769ef1762a62e83a437c0eb5757cd6b7e7617a50bb1e6598918cf9656f",
+      "bytes": 161316
+    },
+    {
+      "path": "data/events/3911474.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/events/3911474.json",
+      "sha256": "5e3b443c900943f2639146ed2da7e79dda019bb47bb0689a11e0e405965b2a8e",
+      "bytes": 3036455
+    },
+    {
+      "path": "data/events/3910744.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/events/3910744.json",
+      "sha256": "381bb5cf270bf9b92ff857bc7476ae3ec9778c868469bfce0c2f585b4adab5d1",
+      "bytes": 3302545
+    },
+    {
+      "path": "data/events/3754078.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/events/3754078.json",
+      "sha256": "0db154ebd79ee2b79a3dcd805f1d0a54c0e23e2f2fba611cfe25d633458abad9",
+      "bytes": 2849847
+    },
+    {
+      "path": "data/events/3911648.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/events/3911648.json",
+      "sha256": "5df88c975d59c151561a931df4f6364eebbe09c8293f59a3979d6dc8624fce0e",
+      "bytes": 3115614
+    },
+    {
+      "path": "data/events/3754159.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/events/3754159.json",
+      "sha256": "6c7f938aaf03da6abb1772eaa902507f73b85fbb6aa72795ab34d3bf75efc46f",
+      "bytes": 3270172
+    },
+    {
+      "path": "data/events/3912592.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/events/3912592.json",
+      "sha256": "80bc3e242d54f6f74f044f61d118a8b7ac04952d02cbb430d4d7e350c1ea8047",
+      "bytes": 2990143
+    },
+    {
+      "path": "data/events/3913094.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/events/3913094.json",
+      "sha256": "0d93eecf392581b4f4b8e49e40f2265de44c077c7b1b6cf705746801c6a6defa",
+      "bytes": 3179548
+    },
+    {
+      "path": "data/events/3913076.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/events/3913076.json",
+      "sha256": "5c12c27a3284419fa19d10cef13031e02cd8aba5a478349d0f939a721fa4a51d",
+      "bytes": 3153909
+    },
+    {
+      "path": "data/events/3913132.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/events/3913132.json",
+      "sha256": "08ee411440bb978be7225bcb68751386c97263c38349af60f3e55e6cc729c535",
+      "bytes": 3479593
+    },
+    {
+      "path": "data/events/3913169.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/events/3913169.json",
+      "sha256": "7cfb2a23ddd54a131c69e5ff32d03ea8e0f4c6142d8836b5942b4b4fa8e194c8",
+      "bytes": 3247299
+    },
+    {
+      "path": "data/lineups/3754078.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3754078.json",
+      "sha256": "f60ff08f6388502f2069dca1ee6bdacc1a3c3aa064e60be4fe714a31910015ab",
+      "bytes": 17126
+    },
+    {
+      "path": "data/events/3913188.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/events/3913188.json",
+      "sha256": "ed0ddaca7b134ba2f95b45e5fb1a1fcc217e5f9571dc3241e805fb63cc9fe681",
+      "bytes": 3261163
+    },
+    {
+      "path": "data/lineups/3754159.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3754159.json",
+      "sha256": "b88e62e83960a365b5362097109c27d7a303d5a5110d600642be129bec50d060",
+      "bytes": 15802
+    },
+    {
+      "path": "data/lineups/3910744.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3910744.json",
+      "sha256": "96d6b9b34707c2c7648aa457bad8fd54105075a60a7ff08a0a1b5e99a2b26950",
+      "bytes": 21558
+    },
+    {
+      "path": "data/lineups/3911474.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3911474.json",
+      "sha256": "db567f7717cb0026b068405bdd3b030a5d08d3d496a79f8178acc22f6091431b",
+      "bytes": 22137
+    },
+    {
+      "path": "data/lineups/3911648.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3911648.json",
+      "sha256": "b02ef7edd29a2054956656f7bc695094fcc8d19c38995d9c5db21387dd23eacd",
+      "bytes": 23416
+    },
+    {
+      "path": "data/lineups/3912592.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3912592.json",
+      "sha256": "0d61b29a35a44a2f06c18e09870ee8b0b062881923f278b9a55c92420a186c2a",
+      "bytes": 19971
+    },
+    {
+      "path": "data/lineups/3912593.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3912593.json",
+      "sha256": "91f137c56be925f42543b9fac16f65724c71a953e8cd50edfd0842375aef99d4",
+      "bytes": 23943
+    },
+    {
+      "path": "data/events/3913112.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/events/3913112.json",
+      "sha256": "abe03e8d02b602abab896c227fdb7606d0eadc609addd15c1ddbf9f8a732f9e0",
+      "bytes": 3428253
+    },
+    {
+      "path": "data/lineups/3912594.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3912594.json",
+      "sha256": "77c6fc8f2983a35b8ed8b1e82f20ce7b02b083db4a4b49830e013b11af5f139a",
+      "bytes": 24498
+    },
+    {
+      "path": "data/lineups/3912595.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3912595.json",
+      "sha256": "5373b02a1c42d847e4c54eed6aee623db45d20b0a5e7d819172ca4cf8e8386d3",
+      "bytes": 19279
+    },
+    {
+      "path": "data/events/3913150.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/events/3913150.json",
+      "sha256": "fe8d60ccd96f9487256718e5dddbea9acb7a89fac505a362a6a67349fb1ab7dc",
+      "bytes": 3475293
+    },
+    {
+      "path": "data/lineups/3912596.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3912596.json",
+      "sha256": "f9c90500cc30498a8f46df5284345ea71c8603a1c8ca45f3dc0811e22419afa6",
+      "bytes": 21007
+    },
+    {
+      "path": "data/lineups/3912597.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3912597.json",
+      "sha256": "ed7be0d49028e321c62bf7a707369bffa40fe9b89c61b90d84f7188933a133dc",
+      "bytes": 20997
+    },
+    {
+      "path": "data/lineups/3912598.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3912598.json",
+      "sha256": "1af10ef2ac59784a0d58a17b6e7b1615735be6641d5cc7b65d217a119bd11a89",
+      "bytes": 21540
+    },
+    {
+      "path": "data/lineups/3912599.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3912599.json",
+      "sha256": "9f377cca4fc2631bf74b651a40249fae5fae69c0eaf24a8dca87ae14f58457f5",
+      "bytes": 24215
+    },
+    {
+      "path": "data/lineups/3912600.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3912600.json",
+      "sha256": "931cd7328864ee9971562010489753f532f29673fd92e94c5b80d665c2b47724",
+      "bytes": 22748
+    },
+    {
+      "path": "data/lineups/3912601.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3912601.json",
+      "sha256": "71e2b54db23fb4a12ada845dc2b24b7b794c3f955f3cf23b92ea4672dff199f1",
+      "bytes": 18708
+    },
+    {
+      "path": "data/lineups/3912603.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3912603.json",
+      "sha256": "2126e1d6286400e45de0fc0ca02e193966df45434158d3abddefe02b4878a166",
+      "bytes": 22154
+    },
+    {
+      "path": "data/lineups/3912602.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3912602.json",
+      "sha256": "6a1cacb36f811c535be8e58864ebb883a06cd5058ab8120374c82083b65e04e2",
+      "bytes": 20669
+    },
+    {
+      "path": "data/lineups/3913069.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913069.json",
+      "sha256": "ab5e9ab171f740784e7203e256d320ea6db758a426555727e599545ae1fbe22b",
+      "bytes": 16638
+    },
+    {
+      "path": "data/lineups/3913070.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913070.json",
+      "sha256": "6ab2680ca77c6eeb4b67277c4ab230402d08688ab69b9b8b3bafd3192e8cbc5b",
+      "bytes": 21804
+    },
+    {
+      "path": "data/lineups/3913072.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913072.json",
+      "sha256": "bea261caf009c5bf325d8c31c4d319cdd992dc64a9bf09bdbcbc44e1fbca5c8c",
+      "bytes": 26243
+    },
+    {
+      "path": "data/lineups/3913071.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913071.json",
+      "sha256": "aa05da37d881581ad81b93f7ff1b16afc835b66e8b8dea306dad920101fe5ffd",
+      "bytes": 21271
+    },
+    {
+      "path": "data/lineups/3913073.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913073.json",
+      "sha256": "63a26c8f97fc2377ea9c1cee1ef6e217b4674364db71025a7fa0ac355fd40e6f",
+      "bytes": 21960
+    },
+    {
+      "path": "data/lineups/3913074.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913074.json",
+      "sha256": "ed8416d338812542fa8a3647131e9e20c9d69819e6dad8210c625d160f1b7360",
+      "bytes": 20802
+    },
+    {
+      "path": "data/lineups/3913076.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913076.json",
+      "sha256": "d44493a38fe160ba00e234bc9ce3ac97610bef913f90c4c564e29a2cb14aa3b1",
+      "bytes": 19497
+    },
+    {
+      "path": "data/lineups/3913077.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913077.json",
+      "sha256": "c70278708703c4e566ab822bbd0dd6a89c7d91522fe7d24987f51e699f3d41b5",
+      "bytes": 22532
+    },
+    {
+      "path": "data/lineups/3913078.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913078.json",
+      "sha256": "c00c641b69d5684f91cea0a7ed664aa3b4b51efd2c226631da4f048b71737ee1",
+      "bytes": 18234
+    },
+    {
+      "path": "data/lineups/3913075.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913075.json",
+      "sha256": "7c43571cc35e5577c9a2579898fd3e66c7d0c158ea05031109fdf5273e7f232f",
+      "bytes": 20567
+    },
+    {
+      "path": "data/lineups/3913079.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913079.json",
+      "sha256": "6c2519b836577e55ef8b8ba329287c1f3fa8911654054e30f655d09a7d823871",
+      "bytes": 19116
+    },
+    {
+      "path": "data/lineups/3913080.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913080.json",
+      "sha256": "3b37f3c3662484fe6a79816f9e7ad8d2cd1407ad05682fa1e6f8c73c6f8f5d7c",
+      "bytes": 22202
+    },
+    {
+      "path": "data/lineups/3913081.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913081.json",
+      "sha256": "1bc2d63bb3fa1acb725a599fe42a04745bfcb8eabbfa5710775ae3912a43c617",
+      "bytes": 21351
+    },
+    {
+      "path": "data/lineups/3913084.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913084.json",
+      "sha256": "08c9700f94fde99bf1f61334f6e6bb669e630d54cdce75e6d989150cd555e145",
+      "bytes": 21121
+    },
+    {
+      "path": "data/lineups/3913083.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913083.json",
+      "sha256": "d810a666b52ef454ebea918952bb2f47aa9e766ed8eb18fa69d7c26f41ee74a7",
+      "bytes": 22202
+    },
+    {
+      "path": "data/lineups/3913085.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913085.json",
+      "sha256": "75dc6d7f890328a1bc8085d9f6c2c53c81e9154941db2fa35fce2e4a5ad2444e",
+      "bytes": 17540
+    },
+    {
+      "path": "data/lineups/3913086.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913086.json",
+      "sha256": "86850115bd55cb2bd17041aadca4ceac8d3a5ec45b2368ffaa251b344e8fed3f",
+      "bytes": 21173
+    },
+    {
+      "path": "data/lineups/3913087.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913087.json",
+      "sha256": "625e9fbdc81b1bb0cbd4be785a48b43b356f8bef9fe6b40623a5a4cb501178dc",
+      "bytes": 18989
+    },
+    {
+      "path": "data/lineups/3913088.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913088.json",
+      "sha256": "2e193ff0c842c747555140ae825cb6ff6f42a5b924d67dd8fb78f4fb98602ad2",
+      "bytes": 20598
+    },
+    {
+      "path": "data/lineups/3913082.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913082.json",
+      "sha256": "510e4c87c947f8684320e5b254191b3a0d14f1b725bb29ffba0b12ea1eef59b4",
+      "bytes": 22214
+    },
+    {
+      "path": "data/lineups/3913089.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913089.json",
+      "sha256": "ec06d51fe9fb0b6c4781be5f559c2f57c97bdf4d47d89768431a67957f3f345b",
+      "bytes": 19234
+    },
+    {
+      "path": "data/lineups/3913090.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913090.json",
+      "sha256": "66979f09a69e9e8cd84f288a8edb3f68c0087bd3f406f3a8d76b9a08d3f18cda",
+      "bytes": 18721
+    },
+    {
+      "path": "data/lineups/3913092.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913092.json",
+      "sha256": "7389f02cf44fb598b21b0c7183abdecea65fb7f7547fce46f44581e787054cf2",
+      "bytes": 20369
+    },
+    {
+      "path": "data/lineups/3913091.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913091.json",
+      "sha256": "7460ddc43161cf4ade280a73ea9ed9e18cf07872bc52b5ee0917cadf2398d08b",
+      "bytes": 21504
+    },
+    {
+      "path": "data/lineups/3913093.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913093.json",
+      "sha256": "a4c11b3a03b556c55e6ef5d1bc9f869b3acaf3a8389560aa6d8253d1c969e08c",
+      "bytes": 18326
+    },
+    {
+      "path": "data/lineups/3913094.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913094.json",
+      "sha256": "3ed28b55899fefb1ba6e75977123d6470e620339c4855f3f45936768db12bc0d",
+      "bytes": 19814
+    },
+    {
+      "path": "data/lineups/3913095.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913095.json",
+      "sha256": "f7bf181f4d6b3e7c5dc77c74a9e9cc7aa4ab26eb837056bb5cb4955b259062fd",
+      "bytes": 20587
+    },
+    {
+      "path": "data/lineups/3913096.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913096.json",
+      "sha256": "9497f2a82c9649415c2787bb77f5b0461a53544a341e91395020b36c7a39a474",
+      "bytes": 18446
+    },
+    {
+      "path": "data/lineups/3913097.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913097.json",
+      "sha256": "0ff7e9f54249fce0bc6bfe4498e52cb70ac57dd8e6574646a9e1ca310d822bff",
+      "bytes": 19286
+    },
+    {
+      "path": "data/lineups/3913098.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913098.json",
+      "sha256": "9eff94005005324a60b620e343e757faf1a80327c89ee1bfc32b1f7c8b24eeae",
+      "bytes": 28861
+    },
+    {
+      "path": "data/lineups/3913099.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913099.json",
+      "sha256": "358d8abc2ac91ee7d7974241f1cabf2fd9dfd4a46320312164200209c4a49fd9",
+      "bytes": 20780
+    },
+    {
+      "path": "data/lineups/3913101.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913101.json",
+      "sha256": "0bbcc01ad75d159253bf79cd3463673ac33034d86b2556c59b1e9cc273d6d96f",
+      "bytes": 19237
+    },
+    {
+      "path": "data/lineups/3913102.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913102.json",
+      "sha256": "68f7ffe41496f1478f470708812259c91fb8c7eae62439c250ad82b7e737ad73",
+      "bytes": 21777
+    },
+    {
+      "path": "data/lineups/3913100.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913100.json",
+      "sha256": "95d33200f038c49269f17521727c7ae481af5204e8748f5ffbe7302f54c8806e",
+      "bytes": 17212
+    },
+    {
+      "path": "data/lineups/3913104.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913104.json",
+      "sha256": "20dc1f1ea423df3bd131139e0a38d90553002709dbf81833e09ca79c9ed14207",
+      "bytes": 20013
+    },
+    {
+      "path": "data/lineups/3913105.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913105.json",
+      "sha256": "3dc8ea8f0fa449f02d0053c21f05ad036d0b46b58e302fb06293644bb12a6c10",
+      "bytes": 23498
+    },
+    {
+      "path": "data/lineups/3913106.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913106.json",
+      "sha256": "65dfc38b7ac4da6a8e6f0b166ded969f75960cc220e8770e48a6130751654923",
+      "bytes": 18567
+    },
+    {
+      "path": "data/lineups/3913107.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913107.json",
+      "sha256": "c4d54cf8798b88410d153654b4cd50a65e526f726de721c7e6a37875a9764680",
+      "bytes": 19131
+    },
+    {
+      "path": "data/lineups/3913108.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913108.json",
+      "sha256": "c98f908a1ffb72fdfd8ae457ec9c9be7c647df2df4f1fc38cc569e05779da03b",
+      "bytes": 20633
+    },
+    {
+      "path": "data/lineups/3913109.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913109.json",
+      "sha256": "2b4ceb652c65fc5de1c52b8bb7ef2fea16ee57570958f7a32012125893c6226c",
+      "bytes": 20749
+    },
+    {
+      "path": "data/lineups/3913110.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913110.json",
+      "sha256": "10bed882d9c030f330b6d79c8c2643f6f4463c077c98da9b522e6944019f2f50",
+      "bytes": 21271
+    },
+    {
+      "path": "data/lineups/3913103.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913103.json",
+      "sha256": "032344397cbf6a442f5091f3e1667133e1c543ef0fa567d473f5fa812e798a47",
+      "bytes": 20246
+    },
+    {
+      "path": "data/lineups/3913111.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913111.json",
+      "sha256": "ec77d829502496382f1c0f202fa9ac4ea75b4f825ab26d96ace122f0dbe381d6",
+      "bytes": 19279
+    },
+    {
+      "path": "data/lineups/3913112.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913112.json",
+      "sha256": "42f5f8b684f6ab6a00b0bc827366db7e0c3b02b06ed0042a61400a2da704cf40",
+      "bytes": 19154
+    },
+    {
+      "path": "data/lineups/3913113.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913113.json",
+      "sha256": "ea17faeb387e44ccc0efb973df60ac01a81524a2859f37c2bf9d0ddd1bf74544",
+      "bytes": 20231
+    },
+    {
+      "path": "data/lineups/3913114.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913114.json",
+      "sha256": "30a7811bf3400eb3d53e751bd0d8ff53a1a21f49a86553d645c752fdaf1b0489",
+      "bytes": 28661
+    },
+    {
+      "path": "data/lineups/3913115.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913115.json",
+      "sha256": "22c03d5d67f45bbcb193dbf8786a8ef2deb16e8d2fcfe45ea85453bac2dfe3b6",
+      "bytes": 23022
+    },
+    {
+      "path": "data/lineups/3913117.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913117.json",
+      "sha256": "60a0055972330d453fba5beaaf3de2e88547d9789450e0fd39902a6e7213eef1",
+      "bytes": 19159
+    },
+    {
+      "path": "data/lineups/3913118.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913118.json",
+      "sha256": "ecf322dd90b42171d4c47ef7c7ad66b73bf867d543c89724af34387976ec28f9",
+      "bytes": 21161
+    },
+    {
+      "path": "data/lineups/3913119.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913119.json",
+      "sha256": "4d422bdb30a8c097924774e480d85414d04586309702de2ba9dce7312e33871f",
+      "bytes": 19270
+    },
+    {
+      "path": "data/lineups/3913120.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913120.json",
+      "sha256": "0aca3b2a24ee7aeb85fe33824f08fb0b204009219ca42f5e5ad8e8fdbeb45310",
+      "bytes": 22574
+    },
+    {
+      "path": "data/lineups/3913121.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913121.json",
+      "sha256": "46f098fc1b96ec6f971d4e687aa8710639e183d3cc8d1cf08dcfd85400aa93db",
+      "bytes": 17454
+    },
+    {
+      "path": "data/lineups/3913122.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913122.json",
+      "sha256": "0133ae63cebd18a04179193b461922478842078afa7b5b39c3d8850603eacc3a",
+      "bytes": 20478
+    },
+    {
+      "path": "data/lineups/3913116.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913116.json",
+      "sha256": "7f127663ef5fc71002a55fc8252877b432a73af9866726a5531d43ed43ac5f3e",
+      "bytes": 22545
+    },
+    {
+      "path": "data/lineups/3913123.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913123.json",
+      "sha256": "285dccca1865e52074152011c268471866dd72a17fe81f949fc017a71140971f",
+      "bytes": 20044
+    },
+    {
+      "path": "data/lineups/3913124.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913124.json",
+      "sha256": "19571225ec9f5f11b361fe36d29157d6f89057b02138b29c77b39cc48f4a611e",
+      "bytes": 22850
+    },
+    {
+      "path": "data/lineups/3913125.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913125.json",
+      "sha256": "f23102e0f69fe06e6304c082b4c08163aabdb2d01777b68bcfc0955e74bf9deb",
+      "bytes": 22018
+    },
+    {
+      "path": "data/lineups/3913126.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913126.json",
+      "sha256": "78dcc392cedcd805bd49cf262c0c7ba1953344b9eb32fd10e59c4737937f273a",
+      "bytes": 19805
+    },
+    {
+      "path": "data/lineups/3913127.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913127.json",
+      "sha256": "5795af5a82c19d8a1b4fd8b8f9682785982378780fdda83689cf0375979b75c2",
+      "bytes": 18115
+    },
+    {
+      "path": "data/lineups/3913128.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913128.json",
+      "sha256": "e4f59d18e69b4e39f35afe161b58efbf906c81fd08d4f5ed3cf880d2050c3481",
+      "bytes": 22041
+    },
+    {
+      "path": "data/lineups/3913130.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913130.json",
+      "sha256": "09f9d8a4fe4c12fe66eb8720ae7314da9a2b1f73a9d58cd94e63011f1266013d",
+      "bytes": 20129
+    },
+    {
+      "path": "data/lineups/3913129.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913129.json",
+      "sha256": "615b2855be58ba0ab54a1cf36f7b4ff7dcb532d9e74ae4a4d1bbaddb773a83a0",
+      "bytes": 22946
+    },
+    {
+      "path": "data/lineups/3913131.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913131.json",
+      "sha256": "af1fa55f5302e8d06cd5c734b09359a1e4acda7814b95fda860b3e5d1a75f884",
+      "bytes": 19195
+    },
+    {
+      "path": "data/lineups/3913132.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913132.json",
+      "sha256": "816e2dc743a6e7e3cfb0e2710167f19884b2ff57a2a4954bcff44ce8bca955f2",
+      "bytes": 20094
+    },
+    {
+      "path": "data/lineups/3913133.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913133.json",
+      "sha256": "6d3c5274c7f8c5d1b55c13a23527fcf68a045b3c2cc05d30b867c055c851ff3e",
+      "bytes": 18786
+    },
+    {
+      "path": "data/lineups/3913134.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913134.json",
+      "sha256": "44fa03e5e509260612b2abd7820c3e70c5e206368368e88b0f55d7de9aa1688b",
+      "bytes": 19227
+    },
+    {
+      "path": "data/lineups/3913135.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913135.json",
+      "sha256": "34288dce1c0d0b923e4ef45207b67b9d9eed383afd90b972aa7db1650ff1818c",
+      "bytes": 21768
+    },
+    {
+      "path": "data/lineups/3913137.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913137.json",
+      "sha256": "f2b53d68e3e054e5f68020ef1f9f6568cccd27681eee89eceb6f3f4a05308f20",
+      "bytes": 18434
+    },
+    {
+      "path": "data/lineups/3913136.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913136.json",
+      "sha256": "9607139f9d410c70170569c918b5bc9385c805bc13bdc2746ad6f54cfe1f1102",
+      "bytes": 23360
+    },
+    {
+      "path": "data/lineups/3913139.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913139.json",
+      "sha256": "d9feca357365a4117b87395f44e588a5f0f94bf792bd601d2baceb724efc0a37",
+      "bytes": 21953
+    },
+    {
+      "path": "data/lineups/3913138.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913138.json",
+      "sha256": "e33e96ba18540ea98d37b9687db5aff65b90a54d928a8d53801736c10a02d5b6",
+      "bytes": 22541
+    },
+    {
+      "path": "data/lineups/3913140.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913140.json",
+      "sha256": "caeba33ae9ea7a4e9bf4afd6f081847558c609c223ec9c48cce245e99f443b2c",
+      "bytes": 18481
+    },
+    {
+      "path": "data/lineups/3913141.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913141.json",
+      "sha256": "ce64403345f502fff68cf3e09f378c23bca290af3841faaafbe640714bbd5770",
+      "bytes": 20610
+    },
+    {
+      "path": "data/lineups/3913142.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913142.json",
+      "sha256": "24737de33d07b4e2df1806739681e8fbdcd397de5f67581a7d936a554881c86f",
+      "bytes": 19684
+    },
+    {
+      "path": "data/lineups/3913144.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913144.json",
+      "sha256": "59efb1972505b90c8dda56ecc7af75988bfb79bbef7ad98199d81b61bf5fae64",
+      "bytes": 16693
+    },
+    {
+      "path": "data/lineups/3913146.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913146.json",
+      "sha256": "8d0c3c802db6e19dcaddfe5c1d7574f75e522c83e68d9e78bfac4eba35b4e15e",
+      "bytes": 24646
+    },
+    {
+      "path": "data/lineups/3913143.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913143.json",
+      "sha256": "87331af281b7005e5c7611b3daa1236c1c07e077d133968a905009b8d82dae3f",
+      "bytes": 18262
+    },
+    {
+      "path": "data/lineups/3913148.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913148.json",
+      "sha256": "0ffa48949a6a3d0c26824771b437e35f11d46e81f6ab898765c1e1236fa043ff",
+      "bytes": 20837
+    },
+    {
+      "path": "data/lineups/3913145.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913145.json",
+      "sha256": "d61b1f63d54d441fc0e0ba337acd07ac7d492d6058b8b9c3861b5fc3eb946616",
+      "bytes": 20999
+    },
+    {
+      "path": "data/lineups/3913149.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913149.json",
+      "sha256": "5cfcd75797e31f87d0fc4c963969c4ce760a2a401a403dff9a45d897540179dd",
+      "bytes": 21898
+    },
+    {
+      "path": "data/lineups/3913150.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913150.json",
+      "sha256": "b7516a5bc61e2465f3a52b13361ca6ab453380d662ed541dcfe3c904efc79a40",
+      "bytes": 20948
+    },
+    {
+      "path": "data/lineups/3913151.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913151.json",
+      "sha256": "9c8b9f7d92e633424dc9bc08f5cb89075da1066f7c662b6e9ea43f669c7356a9",
+      "bytes": 20618
+    },
+    {
+      "path": "data/lineups/3913152.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913152.json",
+      "sha256": "c3f057386dc5b3ca788ed9430fa1260be3100e970fe15da3ceb2128c13c531e2",
+      "bytes": 19305
+    },
+    {
+      "path": "data/lineups/3913155.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913155.json",
+      "sha256": "62973b16874b09dad773c38ba776737d7902f2a3ce3d163cfd2bf5aca1824588",
+      "bytes": 18630
+    },
+    {
+      "path": "data/lineups/3913154.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913154.json",
+      "sha256": "8e30c36dace7b27a89fdd752c8354e1d128b3f2ac94e06642feff91288310339",
+      "bytes": 20383
+    },
+    {
+      "path": "data/lineups/3913153.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913153.json",
+      "sha256": "733ff116298f2af3c764a15a3f5765f02010d7df45f79e04ceb67b005142dace",
+      "bytes": 23100
+    },
+    {
+      "path": "data/lineups/3913147.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913147.json",
+      "sha256": "bdec79f305c1ed91f07cbb5f79a03ef0c9eeee9dfe311c028b3b65d951e3e994",
+      "bytes": 17773
+    },
+    {
+      "path": "data/lineups/3913157.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913157.json",
+      "sha256": "2727ce3567cdf26b35418feed1d2b57aa50985d9e1cad71136cda6958a8bc1c1",
+      "bytes": 20657
+    },
+    {
+      "path": "data/lineups/3913159.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913159.json",
+      "sha256": "f58b55bf28adee20927b49a016d623e14d8828a8d6de9373ff479c6e3da0dcc2",
+      "bytes": 18729
+    },
+    {
+      "path": "data/lineups/3913158.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913158.json",
+      "sha256": "6fc227f726e41e640a0b661e0d6482dc606965a9d4242721a23289431e228b06",
+      "bytes": 21388
+    },
+    {
+      "path": "data/lineups/3913156.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913156.json",
+      "sha256": "bcc0e37032d8299820fef336836722d552349f9b41bb98a93814212a7c830950",
+      "bytes": 20158
+    },
+    {
+      "path": "data/lineups/3913161.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913161.json",
+      "sha256": "f92db5a59480a4891961fb0291035d4b88bd7223c4fd81e929efa2a8768570fc",
+      "bytes": 21565
+    },
+    {
+      "path": "data/lineups/3913160.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913160.json",
+      "sha256": "d4244a857cd7a7a918abacb6c48ed5a78ebf1a123a3e52ca9eae64450ded5d71",
+      "bytes": 17927
+    },
+    {
+      "path": "data/lineups/3913163.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913163.json",
+      "sha256": "7c0850895bf814da9b88a462f0edabed7f4fbee0d8f5b6d67d41b66d347d21d9",
+      "bytes": 19013
+    },
+    {
+      "path": "data/lineups/3913162.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913162.json",
+      "sha256": "8ad79b02e28a81e14d7e16f2b1cd03a2c4046e24f426987fa0e99cf64813a3d4",
+      "bytes": 18609
+    },
+    {
+      "path": "data/lineups/3913164.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913164.json",
+      "sha256": "f508dcc398fc5cd1daa2bc0c5acb5d34e3ecd18b111e1d9496dfc4aa8772f6c9",
+      "bytes": 18784
+    },
+    {
+      "path": "data/lineups/3913165.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913165.json",
+      "sha256": "d24e429a7b46ecc4c20d21ae0d01aa90d6c08e73c14dea3198d2eecdeec4fff9",
+      "bytes": 20101
+    },
+    {
+      "path": "data/lineups/3913166.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913166.json",
+      "sha256": "c8fa5d730a83ad21f90036f60a41e8fd26f9450339d4f6c19909bcc85adc10d6",
+      "bytes": 22004
+    },
+    {
+      "path": "data/lineups/3913168.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913168.json",
+      "sha256": "98c14c97e98dec7eee6ef37f4ad907bb63ef1b10ac4e64439f7f32903af215f9",
+      "bytes": 16453
+    },
+    {
+      "path": "data/lineups/3913167.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913167.json",
+      "sha256": "1689619ee2d94360d4a615e709be646f22c954dbd81ed2279756b7badc76972b",
+      "bytes": 19784
+    },
+    {
+      "path": "data/lineups/3913169.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913169.json",
+      "sha256": "7d8d4f0f5ecf8c910d75e711a18b5e0f5401c26c33b14ec9403d5a614e42f36b",
+      "bytes": 19606
+    },
+    {
+      "path": "data/lineups/3913170.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913170.json",
+      "sha256": "fa58f30d033b55f507b3822f6da1dce83e713731c7ec36948dca2dd5876504a6",
+      "bytes": 27177
+    },
+    {
+      "path": "data/lineups/3913171.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913171.json",
+      "sha256": "64670ae0cd8f0415c9484eaabce6814cd1342aa07acea0dcacb1f12e2e43c36a",
+      "bytes": 19936
+    },
+    {
+      "path": "data/lineups/3913172.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913172.json",
+      "sha256": "11eb55082a08fa2e3c7585ebf657d21f0a1bd9c94495f861edd72eef3cc76a63",
+      "bytes": 22474
+    },
+    {
+      "path": "data/lineups/3913173.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913173.json",
+      "sha256": "ce1fddceb83066c0cbdf09c74392f4d6b675072fd447828f62f89140e892059f",
+      "bytes": 21338
+    },
+    {
+      "path": "data/lineups/3913174.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913174.json",
+      "sha256": "ecd088c70a628188e247de3b5f37466c05b885035744fa80eeab92f47e395c53",
+      "bytes": 23044
+    },
+    {
+      "path": "data/lineups/3913175.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913175.json",
+      "sha256": "cdf72c7cc480e2779e963b71d57546ade77c32cebe8ae26bd9b83b2ce741f41a",
+      "bytes": 19006
+    },
+    {
+      "path": "data/lineups/3913176.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913176.json",
+      "sha256": "e7225bfc938361d111e7ea491c881234939c1aa98d4bffb43fb967e5625f9d1e",
+      "bytes": 20941
+    },
+    {
+      "path": "data/lineups/3913177.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913177.json",
+      "sha256": "41ee46fe74b787868bcaf9be59619312242af6188204c1144038fa17dd45bcf5",
+      "bytes": 20379
+    },
+    {
+      "path": "data/lineups/3913179.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913179.json",
+      "sha256": "d83edccfe49b4681e2997c703e4a25f67913df6f465a8363d67da78fcde82804",
+      "bytes": 18256
+    },
+    {
+      "path": "data/lineups/3913178.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913178.json",
+      "sha256": "13abf65693181bc0dffac14eac8795cfce9e57e622e228cc491c3e420b9ba0cf",
+      "bytes": 19921
+    },
+    {
+      "path": "data/lineups/3913180.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913180.json",
+      "sha256": "8dd57f05b2c642f5e9c2ed7a78d87286cfe9157fc630d0be607d91818c2141b1",
+      "bytes": 23009
+    },
+    {
+      "path": "data/lineups/3913182.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913182.json",
+      "sha256": "2b3028f5c1d3e3a70351928db9793eee44e3613de349f79d21b148ee4eea4e45",
+      "bytes": 21115
+    },
+    {
+      "path": "data/lineups/3913181.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913181.json",
+      "sha256": "ff9ec2c710b93dbf16590ef4a930e61b7f4c7f2f0045141be65dedc7feeadff2",
+      "bytes": 23806
+    },
+    {
+      "path": "data/lineups/3913184.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913184.json",
+      "sha256": "5d81500732e35b38d1ea2f511d60f7c2c6a226fceb1aa850697feba19978a961",
+      "bytes": 19977
+    },
+    {
+      "path": "data/lineups/3913183.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913183.json",
+      "sha256": "778ae3539857db13ca6685e55b4cff57c5190ce927931863f45131f68af2343b",
+      "bytes": 23358
+    },
+    {
+      "path": "data/lineups/3913185.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913185.json",
+      "sha256": "22617a370ede5d4009f06a50cfc99a1952b545c31930baa3564ff3d475da1bb0",
+      "bytes": 22452
+    },
+    {
+      "path": "data/lineups/3913186.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913186.json",
+      "sha256": "0095c1e35069961ba49584c1333ef509944b4a215cfd6e2060814c317f792eb8",
+      "bytes": 23231
+    },
+    {
+      "path": "data/lineups/3913187.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913187.json",
+      "sha256": "8c99fcf85d4d17da6a8d6c741692ff3ec2e123bf47848294a63fad227f264c70",
+      "bytes": 20603
+    },
+    {
+      "path": "data/lineups/3913188.json",
+      "url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/data/lineups/3913188.json",
+      "sha256": "920d7ffe0186a68f11ea59738e0f29935b10715107ec277415baec9960adff49",
+      "bytes": 19733
+    }
+  ],
+  "sample_selection": [
+    {
+      "competition_id": 37,
+      "season_id": 281,
+      "match_id": 3912592
+    },
+    {
+      "competition_id": 37,
+      "season_id": 281,
+      "match_id": 3913076
+    },
+    {
+      "competition_id": 37,
+      "season_id": 281,
+      "match_id": 3913094
+    },
+    {
+      "competition_id": 37,
+      "season_id": 281,
+      "match_id": 3913112
+    },
+    {
+      "competition_id": 37,
+      "season_id": 281,
+      "match_id": 3913132
+    },
+    {
+      "competition_id": 37,
+      "season_id": 281,
+      "match_id": 3913150
+    },
+    {
+      "competition_id": 37,
+      "season_id": 281,
+      "match_id": 3913169
+    },
+    {
+      "competition_id": 37,
+      "season_id": 281,
+      "match_id": 3913188
+    },
+    {
+      "competition_id": 182,
+      "season_id": 281,
+      "match_id": 3910744
+    },
+    {
+      "competition_id": 182,
+      "season_id": 281,
+      "match_id": 3911474
+    },
+    {
+      "competition_id": 182,
+      "season_id": 281,
+      "match_id": 3911648
+    },
+    {
+      "competition_id": 2,
+      "season_id": 27,
+      "match_id": 3754078
+    },
+    {
+      "competition_id": 2,
+      "season_id": 27,
+      "match_id": 3754159
+    }
+  ],
+  "sample_checks": [
+    {
+      "competition_id": 37,
+      "season_id": 281,
+      "match_id": 3912592,
+      "events": 3401,
+      "event_types": {
+        "50/50": 2,
+        "Bad Behaviour": 3,
+        "Ball Receipt*": 843,
+        "Ball Recovery": 113,
+        "Block": 58,
+        "Carry": 686,
+        "Clearance": 55,
+        "Dispossessed": 19,
+        "Dribble": 45,
+        "Dribbled Past": 21,
+        "Duel": 66,
+        "Foul Committed": 13,
+        "Foul Won": 13,
+        "Goal Keeper": 40,
+        "Half End": 4,
+        "Half Start": 4,
+        "Injury Stoppage": 6,
+        "Interception": 10,
+        "Miscontrol": 27,
+        "Pass": 896,
+        "Player Off": 4,
+        "Player On": 4,
+        "Pressure": 420,
+        "Referee Ball-Drop": 3,
+        "Shield": 1,
+        "Shot": 34,
+        "Starting XI": 2,
+        "Substitution": 6,
+        "Tactical Shift": 3
+      },
+      "duplicate_event_ids": 0,
+      "invalid_timestamps": 0,
+      "invalid_pass_carry_start_coordinates": 0,
+      "coordinate_examples": [],
+      "missing_player_id": 16,
+      "missing_location": 36,
+      "pass_count": 896,
+      "pass_end_missing": 0,
+      "carry_end_missing": 0,
+      "shots_xg_missing": 0,
+      "assisted_shot_links": 23,
+      "broken_assisted_shot_links": 0,
+      "counterpress_true": 117,
+      "starting_xi": 2,
+      "half_ends": [
+        {
+          "period": 1,
+          "timestamp": "00:46:01.003",
+          "minute": 46,
+          "flags": null
+        },
+        {
+          "period": 1,
+          "timestamp": "00:46:01.003",
+          "minute": 46,
+          "flags": null
+        },
+        {
+          "period": 2,
+          "timestamp": "00:54:49.065",
+          "minute": 99,
+          "flags": null
+        },
+        {
+          "period": 2,
+          "timestamp": "00:54:49.065",
+          "minute": 99,
+          "flags": null
+        }
+      ],
+      "player_keys": [
+        "cards",
+        "country",
+        "jersey_number",
+        "player_id",
+        "player_name",
+        "player_nickname",
+        "positions"
+      ]
+    },
+    {
+      "competition_id": 37,
+      "season_id": 281,
+      "match_id": 3913076,
+      "events": 3585,
+      "event_types": {
+        "50/50": 6,
+        "Ball Receipt*": 904,
+        "Ball Recovery": 137,
+        "Block": 57,
+        "Carry": 667,
+        "Clearance": 40,
+        "Dispossessed": 33,
+        "Dribble": 33,
+        "Dribbled Past": 19,
+        "Duel": 93,
+        "Error": 1,
+        "Foul Committed": 26,
+        "Foul Won": 26,
+        "Goal Keeper": 39,
+        "Half End": 4,
+        "Half Start": 4,
+        "Injury Stoppage": 8,
+        "Interception": 28,
+        "Miscontrol": 26,
+        "Offside": 2,
+        "Pass": 935,
+        "Player Off": 3,
+        "Player On": 3,
+        "Pressure": 437,
+        "Referee Ball-Drop": 6,
+        "Shield": 7,
+        "Shot": 30,
+        "Starting XI": 2,
+        "Substitution": 4,
+        "Tactical Shift": 5
+      },
+      "duplicate_event_ids": 0,
+      "invalid_timestamps": 0,
+      "invalid_pass_carry_start_coordinates": 0,
+      "coordinate_examples": [],
+      "missing_player_id": 21,
+      "missing_location": 33,
+      "pass_count": 935,
+      "pass_end_missing": 0,
+      "carry_end_missing": 0,
+      "shots_xg_missing": 0,
+      "assisted_shot_links": 20,
+      "broken_assisted_shot_links": 0,
+      "counterpress_true": 171,
+      "starting_xi": 2,
+      "half_ends": [
+        {
+          "period": 1,
+          "timestamp": "00:48:03.050",
+          "minute": 48,
+          "flags": null
+        },
+        {
+          "period": 1,
+          "timestamp": "00:48:03.050",
+          "minute": 48,
+          "flags": null
+        },
+        {
+          "period": 2,
+          "timestamp": "00:51:00.090",
+          "minute": 96,
+          "flags": null
+        },
+        {
+          "period": 2,
+          "timestamp": "00:51:00.090",
+          "minute": 96,
+          "flags": null
+        }
+      ],
+      "player_keys": [
+        "cards",
+        "country",
+        "jersey_number",
+        "player_id",
+        "player_name",
+        "player_nickname",
+        "positions"
+      ]
+    },
+    {
+      "competition_id": 37,
+      "season_id": 281,
+      "match_id": 3913094,
+      "events": 3727,
+      "event_types": {
+        "50/50": 15,
+        "Ball Receipt*": 902,
+        "Ball Recovery": 119,
+        "Block": 46,
+        "Carry": 798,
+        "Clearance": 48,
+        "Dispossessed": 27,
+        "Dribble": 34,
+        "Dribbled Past": 17,
+        "Duel": 71,
+        "Error": 1,
+        "Foul Committed": 20,
+        "Foul Won": 20,
+        "Goal Keeper": 29,
+        "Half End": 4,
+        "Half Start": 4,
+        "Injury Stoppage": 4,
+        "Interception": 29,
+        "Miscontrol": 35,
+        "Offside": 1,
+        "Pass": 996,
+        "Pressure": 472,
+        "Referee Ball-Drop": 3,
+        "Shot": 21,
+        "Starting XI": 2,
+        "Substitution": 6,
+        "Tactical Shift": 3
+      },
+      "duplicate_event_ids": 0,
+      "invalid_timestamps": 0,
+      "invalid_pass_carry_start_coordinates": 0,
+      "coordinate_examples": [],
+      "missing_player_id": 16,
+      "missing_location": 23,
+      "pass_count": 996,
+      "pass_end_missing": 0,
+      "carry_end_missing": 0,
+      "shots_xg_missing": 0,
+      "assisted_shot_links": 11,
+      "broken_assisted_shot_links": 0,
+      "counterpress_true": 150,
+      "starting_xi": 2,
+      "half_ends": [
+        {
+          "period": 1,
+          "timestamp": "00:47:34.766",
+          "minute": 47,
+          "flags": null
+        },
+        {
+          "period": 1,
+          "timestamp": "00:47:34.766",
+          "minute": 47,
+          "flags": null
+        },
+        {
+          "period": 2,
+          "timestamp": "00:50:30.823",
+          "minute": 95,
+          "flags": null
+        },
+        {
+          "period": 2,
+          "timestamp": "00:50:30.823",
+          "minute": 95,
+          "flags": null
+        }
+      ],
+      "player_keys": [
+        "cards",
+        "country",
+        "jersey_number",
+        "player_id",
+        "player_name",
+        "player_nickname",
+        "positions"
+      ]
+    },
+    {
+      "competition_id": 37,
+      "season_id": 281,
+      "match_id": 3913112,
+      "events": 4005,
+      "event_types": {
+        "50/50": 6,
+        "Ball Receipt*": 1042,
+        "Ball Recovery": 141,
+        "Block": 54,
+        "Carry": 941,
+        "Clearance": 33,
+        "Dispossessed": 33,
+        "Dribble": 33,
+        "Dribbled Past": 20,
+        "Duel": 77,
+        "Error": 1,
+        "Foul Committed": 20,
+        "Foul Won": 20,
+        "Goal Keeper": 34,
+        "Half End": 4,
+        "Half Start": 4,
+        "Injury Stoppage": 4,
+        "Interception": 14,
+        "Miscontrol": 34,
+        "Pass": 1071,
+        "Pressure": 369,
+        "Referee Ball-Drop": 4,
+        "Shield": 1,
+        "Shot": 30,
+        "Starting XI": 2,
+        "Substitution": 10,
+        "Tactical Shift": 3
+      },
+      "duplicate_event_ids": 0,
+      "invalid_timestamps": 0,
+      "invalid_pass_carry_start_coordinates": 0,
+      "coordinate_examples": [],
+      "missing_player_id": 17,
+      "missing_location": 27,
+      "pass_count": 1071,
+      "pass_end_missing": 0,
+      "carry_end_missing": 0,
+      "shots_xg_missing": 0,
+      "assisted_shot_links": 22,
+      "broken_assisted_shot_links": 0,
+      "counterpress_true": 118,
+      "starting_xi": 2,
+      "half_ends": [
+        {
+          "period": 1,
+          "timestamp": "00:47:06.818",
+          "minute": 47,
+          "flags": null
+        },
+        {
+          "period": 1,
+          "timestamp": "00:47:06.818",
+          "minute": 47,
+          "flags": null
+        },
+        {
+          "period": 2,
+          "timestamp": "00:53:08.439",
+          "minute": 98,
+          "flags": null
+        },
+        {
+          "period": 2,
+          "timestamp": "00:53:08.439",
+          "minute": 98,
+          "flags": null
+        }
+      ],
+      "player_keys": [
+        "cards",
+        "country",
+        "jersey_number",
+        "player_id",
+        "player_name",
+        "player_nickname",
+        "positions"
+      ]
+    },
+    {
+      "competition_id": 37,
+      "season_id": 281,
+      "match_id": 3913132,
+      "events": 4067,
+      "event_types": {
+        "50/50": 4,
+        "Ball Receipt*": 1055,
+        "Ball Recovery": 118,
+        "Block": 35,
+        "Carry": 985,
+        "Clearance": 40,
+        "Dispossessed": 31,
+        "Dribble": 28,
+        "Dribbled Past": 17,
+        "Duel": 57,
+        "Foul Committed": 26,
+        "Foul Won": 25,
+        "Goal Keeper": 25,
+        "Half End": 4,
+        "Half Start": 4,
+        "Injury Stoppage": 4,
+        "Interception": 15,
+        "Miscontrol": 33,
+        "Pass": 1080,
+        "Player Off": 1,
+        "Player On": 1,
+        "Pressure": 444,
+        "Shield": 4,
+        "Shot": 19,
+        "Starting XI": 2,
+        "Substitution": 8,
+        "Tactical Shift": 2
+      },
+      "duplicate_event_ids": 0,
+      "invalid_timestamps": 0,
+      "invalid_pass_carry_start_coordinates": 0,
+      "coordinate_examples": [],
+      "missing_player_id": 12,
+      "missing_location": 26,
+      "pass_count": 1080,
+      "pass_end_missing": 0,
+      "carry_end_missing": 0,
+      "shots_xg_missing": 0,
+      "assisted_shot_links": 13,
+      "broken_assisted_shot_links": 0,
+      "counterpress_true": 102,
+      "starting_xi": 2,
+      "half_ends": [
+        {
+          "period": 1,
+          "timestamp": "00:46:09.432",
+          "minute": 46,
+          "flags": null
+        },
+        {
+          "period": 1,
+          "timestamp": "00:46:09.432",
+          "minute": 46,
+          "flags": null
+        },
+        {
+          "period": 2,
+          "timestamp": "00:52:31.234",
+          "minute": 97,
+          "flags": null
+        },
+        {
+          "period": 2,
+          "timestamp": "00:52:31.234",
+          "minute": 97,
+          "flags": null
+        }
+      ],
+      "player_keys": [
+        "cards",
+        "country",
+        "jersey_number",
+        "player_id",
+        "player_name",
+        "player_nickname",
+        "positions"
+      ]
+    },
+    {
+      "competition_id": 37,
+      "season_id": 281,
+      "match_id": 3913150,
+      "events": 3986,
+      "event_types": {
+        "50/50": 7,
+        "Ball Receipt*": 999,
+        "Ball Recovery": 116,
+        "Block": 40,
+        "Carry": 960,
+        "Clearance": 34,
+        "Dispossessed": 29,
+        "Dribble": 30,
+        "Dribbled Past": 21,
+        "Duel": 47,
+        "Foul Committed": 17,
+        "Foul Won": 15,
+        "Goal Keeper": 26,
+        "Half End": 4,
+        "Half Start": 4,
+        "Injury Stoppage": 5,
+        "Interception": 16,
+        "Miscontrol": 32,
+        "Pass": 1093,
+        "Player Off": 1,
+        "Player On": 1,
+        "Pressure": 444,
+        "Referee Ball-Drop": 5,
+        "Shield": 1,
+        "Shot": 24,
+        "Starting XI": 2,
+        "Substitution": 10,
+        "Tactical Shift": 3
+      },
+      "duplicate_event_ids": 0,
+      "invalid_timestamps": 0,
+      "invalid_pass_carry_start_coordinates": 0,
+      "coordinate_examples": [],
+      "missing_player_id": 18,
+      "missing_location": 30,
+      "pass_count": 1093,
+      "pass_end_missing": 0,
+      "carry_end_missing": 0,
+      "shots_xg_missing": 0,
+      "assisted_shot_links": 17,
+      "broken_assisted_shot_links": 0,
+      "counterpress_true": 117,
+      "starting_xi": 2,
+      "half_ends": [
+        {
+          "period": 1,
+          "timestamp": "00:49:06.736",
+          "minute": 49,
+          "flags": null
+        },
+        {
+          "period": 1,
+          "timestamp": "00:49:06.736",
+          "minute": 49,
+          "flags": null
+        },
+        {
+          "period": 2,
+          "timestamp": "00:49:15.424",
+          "minute": 94,
+          "flags": null
+        },
+        {
+          "period": 2,
+          "timestamp": "00:49:15.424",
+          "minute": 94,
+          "flags": null
+        }
+      ],
+      "player_keys": [
+        "cards",
+        "country",
+        "jersey_number",
+        "player_id",
+        "player_name",
+        "player_nickname",
+        "positions"
+      ]
+    },
+    {
+      "competition_id": 37,
+      "season_id": 281,
+      "match_id": 3913169,
+      "events": 3695,
+      "event_types": {
+        "50/50": 4,
+        "Ball Receipt*": 966,
+        "Ball Recovery": 99,
+        "Block": 44,
+        "Carry": 870,
+        "Clearance": 37,
+        "Dispossessed": 28,
+        "Dribble": 23,
+        "Dribbled Past": 14,
+        "Duel": 59,
+        "Foul Committed": 21,
+        "Foul Won": 21,
+        "Goal Keeper": 34,
+        "Half End": 4,
+        "Half Start": 4,
+        "Interception": 26,
+        "Miscontrol": 23,
+        "Offside": 1,
+        "Pass": 1013,
+        "Pressure": 354,
+        "Shield": 4,
+        "Shot": 31,
+        "Starting XI": 2,
+        "Substitution": 9,
+        "Tactical Shift": 4
+      },
+      "duplicate_event_ids": 0,
+      "invalid_timestamps": 0,
+      "invalid_pass_carry_start_coordinates": 0,
+      "coordinate_examples": [],
+      "missing_player_id": 14,
+      "missing_location": 23,
+      "pass_count": 1013,
+      "pass_end_missing": 0,
+      "carry_end_missing": 0,
+      "shots_xg_missing": 0,
+      "assisted_shot_links": 21,
+      "broken_assisted_shot_links": 0,
+      "counterpress_true": 124,
+      "starting_xi": 2,
+      "half_ends": [
+        {
+          "period": 1,
+          "timestamp": "00:46:05.519",
+          "minute": 46,
+          "flags": null
+        },
+        {
+          "period": 1,
+          "timestamp": "00:46:05.519",
+          "minute": 46,
+          "flags": null
+        },
+        {
+          "period": 2,
+          "timestamp": "00:53:02.067",
+          "minute": 98,
+          "flags": null
+        },
+        {
+          "period": 2,
+          "timestamp": "00:53:02.067",
+          "minute": 98,
+          "flags": null
+        }
+      ],
+      "player_keys": [
+        "cards",
+        "country",
+        "jersey_number",
+        "player_id",
+        "player_name",
+        "player_nickname",
+        "positions"
+      ]
+    },
+    {
+      "competition_id": 37,
+      "season_id": 281,
+      "match_id": 3913188,
+      "events": 3749,
+      "event_types": {
+        "50/50": 6,
+        "Ball Receipt*": 966,
+        "Ball Recovery": 96,
+        "Block": 30,
+        "Carry": 865,
+        "Clearance": 38,
+        "Dispossessed": 30,
+        "Dribble": 34,
+        "Dribbled Past": 21,
+        "Duel": 64,
+        "Error": 1,
+        "Foul Committed": 20,
+        "Foul Won": 19,
+        "Goal Keeper": 35,
+        "Half End": 4,
+        "Half Start": 4,
+        "Injury Stoppage": 8,
+        "Interception": 24,
+        "Miscontrol": 31,
+        "Pass": 1027,
+        "Player Off": 1,
+        "Player On": 1,
+        "Pressure": 383,
+        "Referee Ball-Drop": 2,
+        "Shield": 2,
+        "Shot": 22,
+        "Starting XI": 2,
+        "Substitution": 9,
+        "Tactical Shift": 4
+      },
+      "duplicate_event_ids": 0,
+      "invalid_timestamps": 0,
+      "invalid_pass_carry_start_coordinates": 0,
+      "coordinate_examples": [],
+      "missing_player_id": 16,
+      "missing_location": 33,
+      "pass_count": 1027,
+      "pass_end_missing": 0,
+      "carry_end_missing": 0,
+      "shots_xg_missing": 0,
+      "assisted_shot_links": 19,
+      "broken_assisted_shot_links": 0,
+      "counterpress_true": 112,
+      "starting_xi": 2,
+      "half_ends": [
+        {
+          "period": 1,
+          "timestamp": "00:48:08.685",
+          "minute": 48,
+          "flags": null
+        },
+        {
+          "period": 1,
+          "timestamp": "00:48:08.685",
+          "minute": 48,
+          "flags": null
+        },
+        {
+          "period": 2,
+          "timestamp": "00:55:16.280",
+          "minute": 100,
+          "flags": null
+        },
+        {
+          "period": 2,
+          "timestamp": "00:55:16.280",
+          "minute": 100,
+          "flags": null
+        }
+      ],
+      "player_keys": [
+        "cards",
+        "country",
+        "jersey_number",
+        "player_id",
+        "player_name",
+        "player_nickname",
+        "positions"
+      ]
+    },
+    {
+      "competition_id": 182,
+      "season_id": 281,
+      "match_id": 3910744,
+      "events": 3766,
+      "event_types": {
+        "50/50": 4,
+        "Ball Receipt*": 974,
+        "Ball Recovery": 137,
+        "Block": 41,
+        "Carry": 872,
+        "Clearance": 54,
+        "Dispossessed": 31,
+        "Dribble": 27,
+        "Dribbled Past": 21,
+        "Duel": 50,
+        "Foul Committed": 22,
+        "Foul Won": 19,
+        "Goal Keeper": 38,
+        "Half End": 4,
+        "Half Start": 4,
+        "Injury Stoppage": 2,
+        "Interception": 23,
+        "Miscontrol": 40,
+        "Pass": 984,
+        "Player Off": 1,
+        "Player On": 1,
+        "Pressure": 369,
+        "Shield": 1,
+        "Shot": 32,
+        "Starting XI": 2,
+        "Substitution": 10,
+        "Tactical Shift": 3
+      },
+      "duplicate_event_ids": 0,
+      "invalid_timestamps": 0,
+      "invalid_pass_carry_start_coordinates": 0,
+      "coordinate_examples": [],
+      "missing_player_id": 13,
+      "missing_location": 27,
+      "pass_count": 984,
+      "pass_end_missing": 0,
+      "carry_end_missing": 0,
+      "shots_xg_missing": 0,
+      "assisted_shot_links": 22,
+      "broken_assisted_shot_links": 0,
+      "counterpress_true": 112,
+      "starting_xi": 2,
+      "half_ends": [
+        {
+          "period": 1,
+          "timestamp": "00:46:05.474",
+          "minute": 46,
+          "flags": null
+        },
+        {
+          "period": 1,
+          "timestamp": "00:46:05.474",
+          "minute": 46,
+          "flags": null
+        },
+        {
+          "period": 2,
+          "timestamp": "00:50:14.748",
+          "minute": 95,
+          "flags": null
+        },
+        {
+          "period": 2,
+          "timestamp": "00:50:14.748",
+          "minute": 95,
+          "flags": null
+        }
+      ],
+      "player_keys": [
+        "cards",
+        "country",
+        "jersey_number",
+        "player_id",
+        "player_name",
+        "player_nickname",
+        "positions"
+      ]
+    },
+    {
+      "competition_id": 182,
+      "season_id": 281,
+      "match_id": 3911474,
+      "events": 3468,
+      "event_types": {
+        "50/50": 4,
+        "Bad Behaviour": 2,
+        "Ball Receipt*": 845,
+        "Ball Recovery": 129,
+        "Block": 40,
+        "Carry": 756,
+        "Clearance": 30,
+        "Dispossessed": 25,
+        "Dribble": 37,
+        "Dribbled Past": 21,
+        "Duel": 59,
+        "Error": 2,
+        "Foul Committed": 19,
+        "Foul Won": 18,
+        "Goal Keeper": 37,
+        "Half End": 4,
+        "Half Start": 4,
+        "Injury Stoppage": 1,
+        "Interception": 11,
+        "Miscontrol": 36,
+        "Offside": 1,
+        "Pass": 900,
+        "Player Off": 1,
+        "Player On": 1,
+        "Pressure": 434,
+        "Shield": 1,
+        "Shot": 34,
+        "Starting XI": 2,
+        "Substitution": 10,
+        "Tactical Shift": 4
+      },
+      "duplicate_event_ids": 0,
+      "invalid_timestamps": 0,
+      "invalid_pass_carry_start_coordinates": 0,
+      "coordinate_examples": [],
+      "missing_player_id": 14,
+      "missing_location": 29,
+      "pass_count": 900,
+      "pass_end_missing": 0,
+      "carry_end_missing": 0,
+      "shots_xg_missing": 0,
+      "assisted_shot_links": 25,
+      "broken_assisted_shot_links": 0,
+      "counterpress_true": 113,
+      "starting_xi": 2,
+      "half_ends": [
+        {
+          "period": 1,
+          "timestamp": "00:48:03.759",
+          "minute": 48,
+          "flags": null
+        },
+        {
+          "period": 1,
+          "timestamp": "00:48:03.759",
+          "minute": 48,
+          "flags": null
+        },
+        {
+          "period": 2,
+          "timestamp": "00:50:03.687",
+          "minute": 95,
+          "flags": null
+        },
+        {
+          "period": 2,
+          "timestamp": "00:50:03.687",
+          "minute": 95,
+          "flags": null
+        }
+      ],
+      "player_keys": [
+        "cards",
+        "country",
+        "jersey_number",
+        "player_id",
+        "player_name",
+        "player_nickname",
+        "positions"
+      ]
+    },
+    {
+      "competition_id": 182,
+      "season_id": 281,
+      "match_id": 3911648,
+      "events": 3595,
+      "event_types": {
+        "50/50": 4,
+        "Ball Receipt*": 962,
+        "Ball Recovery": 99,
+        "Block": 20,
+        "Carry": 857,
+        "Clearance": 45,
+        "Dispossessed": 22,
+        "Dribble": 33,
+        "Dribbled Past": 16,
+        "Duel": 47,
+        "Foul Committed": 24,
+        "Foul Won": 24,
+        "Goal Keeper": 32,
+        "Half End": 4,
+        "Half Start": 4,
+        "Injury Stoppage": 5,
+        "Interception": 32,
+        "Miscontrol": 27,
+        "Offside": 1,
+        "Pass": 992,
+        "Player Off": 2,
+        "Player On": 2,
+        "Pressure": 297,
+        "Referee Ball-Drop": 6,
+        "Shield": 2,
+        "Shot": 21,
+        "Starting XI": 2,
+        "Substitution": 10,
+        "Tactical Shift": 3
+      },
+      "duplicate_event_ids": 0,
+      "invalid_timestamps": 0,
+      "invalid_pass_carry_start_coordinates": 0,
+      "coordinate_examples": [],
+      "missing_player_id": 19,
+      "missing_location": 32,
+      "pass_count": 992,
+      "pass_end_missing": 0,
+      "carry_end_missing": 0,
+      "shots_xg_missing": 0,
+      "assisted_shot_links": 15,
+      "broken_assisted_shot_links": 0,
+      "counterpress_true": 123,
+      "starting_xi": 2,
+      "half_ends": [
+        {
+          "period": 1,
+          "timestamp": "00:48:03.074",
+          "minute": 48,
+          "flags": null
+        },
+        {
+          "period": 1,
+          "timestamp": "00:48:03.074",
+          "minute": 48,
+          "flags": null
+        },
+        {
+          "period": 2,
+          "timestamp": "00:49:02.072",
+          "minute": 94,
+          "flags": null
+        },
+        {
+          "period": 2,
+          "timestamp": "00:49:02.072",
+          "minute": 94,
+          "flags": null
+        }
+      ],
+      "player_keys": [
+        "cards",
+        "country",
+        "jersey_number",
+        "player_id",
+        "player_name",
+        "player_nickname",
+        "positions"
+      ]
+    },
+    {
+      "competition_id": 2,
+      "season_id": 27,
+      "match_id": 3754078,
+      "events": 3352,
+      "event_types": {
+        "Bad Behaviour": 1,
+        "Ball Receipt*": 846,
+        "Ball Recovery": 106,
+        "Block": 37,
+        "Carry": 731,
+        "Clearance": 43,
+        "Dispossessed": 29,
+        "Dribble": 42,
+        "Dribbled Past": 31,
+        "Duel": 80,
+        "Foul Committed": 36,
+        "Foul Won": 35,
+        "Goal Keeper": 32,
+        "Half End": 4,
+        "Half Start": 4,
+        "Injury Stoppage": 8,
+        "Interception": 13,
+        "Miscontrol": 25,
+        "Own Goal Against": 1,
+        "Own Goal For": 1,
+        "Pass": 932,
+        "Player Off": 1,
+        "Player On": 1,
+        "Pressure": 276,
+        "Referee Ball-Drop": 2,
+        "Shot": 26,
+        "Starting XI": 2,
+        "Substitution": 6,
+        "Tactical Shift": 1
+      },
+      "duplicate_event_ids": 0,
+      "invalid_timestamps": 0,
+      "invalid_pass_carry_start_coordinates": 0,
+      "coordinate_examples": [],
+      "missing_player_id": 14,
+      "missing_location": 28,
+      "pass_count": 932,
+      "pass_end_missing": 0,
+      "carry_end_missing": 0,
+      "shots_xg_missing": 0,
+      "assisted_shot_links": 19,
+      "broken_assisted_shot_links": 0,
+      "counterpress_true": 98,
+      "starting_xi": 2,
+      "half_ends": [
+        {
+          "period": 1,
+          "timestamp": "00:48:00.495",
+          "minute": 48,
+          "flags": null
+        },
+        {
+          "period": 1,
+          "timestamp": "00:48:00.495",
+          "minute": 48,
+          "flags": null
+        },
+        {
+          "period": 2,
+          "timestamp": "00:49:31.473",
+          "minute": 94,
+          "flags": null
+        },
+        {
+          "period": 2,
+          "timestamp": "00:49:31.473",
+          "minute": 94,
+          "flags": null
+        }
+      ],
+      "player_keys": [
+        "cards",
+        "country",
+        "jersey_number",
+        "player_id",
+        "player_name",
+        "player_nickname",
+        "positions"
+      ]
+    },
+    {
+      "competition_id": 2,
+      "season_id": 27,
+      "match_id": 3754159,
+      "events": 3824,
+      "event_types": {
+        "50/50": 2,
+        "Ball Receipt*": 1060,
+        "Ball Recovery": 90,
+        "Block": 36,
+        "Carry": 918,
+        "Clearance": 23,
+        "Dispossessed": 26,
+        "Dribble": 41,
+        "Dribbled Past": 26,
+        "Duel": 66,
+        "Error": 1,
+        "Foul Committed": 19,
+        "Foul Won": 18,
+        "Goal Keeper": 22,
+        "Half End": 4,
+        "Half Start": 4,
+        "Injury Stoppage": 3,
+        "Interception": 27,
+        "Miscontrol": 29,
+        "Own Goal Against": 1,
+        "Own Goal For": 1,
+        "Pass": 1092,
+        "Pressure": 287,
+        "Shield": 1,
+        "Shot": 19,
+        "Starting XI": 2,
+        "Substitution": 6
+      },
+      "duplicate_event_ids": 0,
+      "invalid_timestamps": 0,
+      "invalid_pass_carry_start_coordinates": 0,
+      "coordinate_examples": [],
+      "missing_player_id": 11,
+      "missing_location": 19,
+      "pass_count": 1092,
+      "pass_end_missing": 0,
+      "carry_end_missing": 0,
+      "shots_xg_missing": 0,
+      "assisted_shot_links": 12,
+      "broken_assisted_shot_links": 0,
+      "counterpress_true": 91,
+      "starting_xi": 2,
+      "half_ends": [
+        {
+          "period": 1,
+          "timestamp": "00:46:08.248",
+          "minute": 46,
+          "flags": null
+        },
+        {
+          "period": 1,
+          "timestamp": "00:46:08.248",
+          "minute": 46,
+          "flags": null
+        },
+        {
+          "period": 2,
+          "timestamp": "00:48:03.113",
+          "minute": 93,
+          "flags": null
+        },
+        {
+          "period": 2,
+          "timestamp": "00:48:03.113",
+          "minute": 93,
+          "flags": null
+        }
+      ],
+      "player_keys": [
+        "cards",
+        "country",
+        "jersey_number",
+        "player_id",
+        "player_name",
+        "player_nickname",
+        "positions"
+      ]
+    }
+  ],
+  "lineup_checks": {
+    "match_count": 132,
+    "date_min": "2023-10-01",
+    "date_max": "2024-05-18",
+    "team_match_counts": {
+      "Brighton & Hove Albion WFC": 22,
+      "Manchester United W": 22,
+      "Manchester City WFC": 22,
+      "Tottenham Hotspur Women": 22,
+      "Aston Villa W": 22,
+      "West Ham United LFC": 22,
+      "Chelsea FCW": 22,
+      "Everton LFC": 22,
+      "Bristol City WFC": 22,
+      "Liverpool WFC": 22,
+      "Leicester City WFC": 22,
+      "Arsenal WFC": 22
+    },
+    "roster_unique_players": 336,
+    "roster_slots": 5102,
+    "position_record_appearances": 3984,
+    "slots_without_positions": 1118,
+    "slots_missing_birth_date": 5102,
+    "player_field_frequency": {
+      "player_id": 5102,
+      "player_name": 5102,
+      "player_nickname": 5102,
+      "jersey_number": 5102,
+      "country": 5102,
+      "cards": 5102,
+      "positions": 5102
+    },
+    "position_names": {
+      "Center Back": 157,
+      "Left Center Back": 402,
+      "Right Defensive Midfield": 379,
+      "Center Defensive Midfield": 172,
+      "Left Midfield": 143,
+      "Left Center Midfield": 215,
+      "Goalkeeper": 267,
+      "Left Wing": 443,
+      "Right Wing Back": 201,
+      "Right Wing": 459,
+      "Center Attacking Midfield": 279,
+      "Right Center Midfield": 217,
+      "Left Defensive Midfield": 353,
+      "Left Wing Back": 195,
+      "Left Back": 300,
+      "Right Midfield": 140,
+      "Center Forward": 464,
+      "Right Center Back": 399,
+      "Right Back": 338,
+      "Right Center Forward": 159,
+      "Left Center Forward": 136,
+      "Right Attacking Midfield": 22,
+      "Left Attacking Midfield": 23
+    },
+    "reason_names": {
+      "Starting XI": 2904,
+      "Tactical Shift": 3251,
+      "Final Whistle": 2908,
+      "Substitution - On (Injury)": 78,
+      "Substitution - On (Tactical)": 1054,
+      "Substitution - Off (Tactical)": 1000,
+      "Substitution - Off (Injury)": 71,
+      "Player Off": 211,
+      "Player On": 176,
+      "Player Off (Off Camera)": 6,
+      "Player On (Off Camera)": 43,
+      "Substitution - On (Off Camera)": 6,
+      "Substitution - Off (Off Camera)": 5,
+      "Foul Committed (Red Card)": 3,
+      "Foul Committed (Second Yellow)": 8,
+      "Player Off (Permanent)": 2
+    },
+    "versions": {
+      "{'data_version': '1.1.0', 'shot_fidelity_version': '2', 'xy_fidelity_version': '2'}": 132
+    }
+  },
+  "preliminary_minutes_diagnostic": {
+    "method": "Preliminary lineup-only nominal minutes, each regulation period clipped to 45 minutes; sampled actual durations include stoppage; not production minutes",
+    "starting_xi_segments": 2904,
+    "positive_minute_players": 290,
+    "eligible_by_primary_position": {
+      "90": {
+        "CB": 48,
+        "DM": 40,
+        "AM": 7,
+        "GK": 27,
+        "W": 45,
+        "FB": 43,
+        "ST": 32,
+        "CM": 18
+      },
+      "450": {
+        "CB": 43,
+        "DM": 31,
+        "AM": 5,
+        "GK": 20,
+        "W": 36,
+        "FB": 34,
+        "ST": 26,
+        "CM": 15
+      },
+      "900": {
+        "CB": 33,
+        "DM": 20,
+        "GK": 11,
+        "W": 20,
+        "FB": 25,
+        "ST": 15,
+        "AM": 1,
+        "CM": 11
+      }
+    },
+    "actual_duration_samples": [
+      {
+        "match_id": 3913169,
+        "period_seconds": {
+          "1": 2765.519,
+          "2": 3182.067
+        },
+        "verified_period_duration_minutes": 99.12643333333332
+      },
+      {
+        "match_id": 3913150,
+        "period_seconds": {
+          "1": 2946.736,
+          "2": 2955.424
+        },
+        "verified_period_duration_minutes": 98.36933333333333
+      },
+      {
+        "match_id": 3913112,
+        "period_seconds": {
+          "1": 2826.818,
+          "2": 3188.439
+        },
+        "verified_period_duration_minutes": 100.25428333333333
+      },
+      {
+        "match_id": 3913076,
+        "period_seconds": {
+          "1": 2883.05,
+          "2": 3060.09
+        },
+        "verified_period_duration_minutes": 99.05233333333334
+      },
+      {
+        "match_id": 3913188,
+        "period_seconds": {
+          "1": 2888.685,
+          "2": 3316.28
+        },
+        "verified_period_duration_minutes": 103.41608333333333
+      },
+      {
+        "match_id": 3913132,
+        "period_seconds": {
+          "1": 2769.432,
+          "2": 3151.234
+        },
+        "verified_period_duration_minutes": 98.67776666666666
+      },
+      {
+        "match_id": 3913094,
+        "period_seconds": {
+          "1": 2854.766,
+          "2": 3030.823
+        },
+        "verified_period_duration_minutes": 98.09315
+      },
+      {
+        "match_id": 3912592,
+        "period_seconds": {
+          "1": 2761.003,
+          "2": 3289.065
+        },
+        "verified_period_duration_minutes": 100.83446666666667
+      }
+    ],
+    "nominal_clipping_boundary_cases": 176,
+    "note": "Nominal clipping boundary cases are legitimate stoppage-time intervals, not malformed source data. Actual-duration samples used naive segment summation and are exploratory; overlap_checks explain one overcount. Production calculation must validate then union intervals, retain flags and exclude ambiguous appearances."
+  },
+  "overlap_checks": [
+    {
+      "match_id": 3913150,
+      "period": 1,
+      "overlap_seconds": 60.735999999999876
+    }
+  ],
+  "additional_checks": {
+    "wsl_distinct_opponent_pairs": 66,
+    "fixtures_per_opponent_pair": 2,
+    "sample_actor_team_and_order": [
+      {
+        "match_id": 3912592,
+        "actor_team_roster_mismatches": 0,
+        "contiguous_event_index": true
+      },
+      {
+        "match_id": 3913076,
+        "actor_team_roster_mismatches": 0,
+        "contiguous_event_index": true
+      },
+      {
+        "match_id": 3913094,
+        "actor_team_roster_mismatches": 0,
+        "contiguous_event_index": true
+      },
+      {
+        "match_id": 3913112,
+        "actor_team_roster_mismatches": 0,
+        "contiguous_event_index": true
+      },
+      {
+        "match_id": 3913132,
+        "actor_team_roster_mismatches": 0,
+        "contiguous_event_index": true
+      },
+      {
+        "match_id": 3913150,
+        "actor_team_roster_mismatches": 0,
+        "contiguous_event_index": true
+      },
+      {
+        "match_id": 3913169,
+        "actor_team_roster_mismatches": 0,
+        "contiguous_event_index": true
+      },
+      {
+        "match_id": 3913188,
+        "actor_team_roster_mismatches": 0,
+        "contiguous_event_index": true
+      },
+      {
+        "match_id": 3910744,
+        "actor_team_roster_mismatches": 0,
+        "contiguous_event_index": true
+      },
+      {
+        "match_id": 3911474,
+        "actor_team_roster_mismatches": 0,
+        "contiguous_event_index": true
+      },
+      {
+        "match_id": 3911648,
+        "actor_team_roster_mismatches": 0,
+        "contiguous_event_index": true
+      },
+      {
+        "match_id": 3754078,
+        "actor_team_roster_mismatches": 0,
+        "contiguous_event_index": true
+      },
+      {
+        "match_id": 3754159,
+        "actor_team_roster_mismatches": 0,
+        "contiguous_event_index": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+schema_version = "1.0"
+provider = "statsbomb"
+competition_id = 37
+season_id = 281
+competition_name = "FA Women's Super League"
+season_name = "2023/2024"
+repository = "https://github.com/hudl/open-data"
+revision = "4b73468fc5b0f1950f9f66fada70ad3a4f9327cb"
+catalog_sha256 = "e6cd42f5d8956d6aa30fb917ce8d4c3b3df1879a93f02f8feba820930a6971fa"
+matches_sha256 = "f0f3a5509f0ca9a1b5315b3a78d86d1c4c6909be5d16f2999c2d2295d6f3a22e"
+expected_match_count = 132
+expected_team_count = 12
+audit_date = 2026-09-30
+usage = "noncommercial_research"
+data_license_url = "https://github.com/hudl/open-data/blob/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/LICENSE.pdf"
+required_capabilities = ["competitions", "matches", "events", "lineups"]
+unavailable_fields = ["birth_date", "market_value", "contracts", "tracking"]
+
+[paths]
+raw = "data/raw"
+interim = "data/interim"
+processed = "data/processed"
+reports = "outputs"

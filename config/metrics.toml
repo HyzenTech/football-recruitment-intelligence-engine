@@ -1,0 +1,18 @@
+schema_version = "1.0"
+definition_version = "features-0.4.0"
+status = "IMPLEMENTED"
+provider_pitch_length = 120.0
+provider_pitch_width = 80.0
+distance_units = "provider_grid_units"
+progression_absolute_reduction = 10.0
+progression_relative_reduction = 0.25
+progression_requires_forward = true
+pass_progression_requires_completion = true
+progression_open_play_only = true
+final_third_start_x = 80.0
+penalty_area_start_x = 102.0
+penalty_area_y_min = 18.0
+penalty_area_y_max = 62.0
+
+open_play_patterns = ["Regular Play", "From Counter"]
+long_pass_minimum_yards = 30.0

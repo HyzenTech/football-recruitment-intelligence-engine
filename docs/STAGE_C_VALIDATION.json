@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "frozen_files_unchanged": 65,
+  "profiles_field_parity": 303,
+  "similarity_exact_parity": 303,
+  "ranking_exact_parity": 8,
+  "verified_payload_files": 609,
+  "payload_bytes": 9854382,
+  "export_manifest_sha256": "77797a95eb5841f153eb3fd881586da77f9dc80afb59e75bd0e6b9359964eb1c",
+  "stage": "C",
+  "suite_tests_passed": 226,
+  "original_tests": 220,
+  "new_boundary_tests": 6,
+  "suite_warnings": 1,
+  "ruff": "PASS",
+  "javascript_syntax": "PASS",
+  "deterministic_repeat_export": "PASS",
+  "browser_checks": {
+    "four_views": "PASS",
+    "desktop": "PASS",
+    "tablet_768": "PASS",
+    "mobile_375": "PASS",
+    "missing_data_fail_closed": "PASS",
+    "corrupted_profile_fail_closed": "PASS",
+    "invalid_limits": "PASS",
+    "missing_metrics_preserved": "PASS",
+    "role_benchmarks_preserved": "PASS"
+  },
+  "publication_status": "LOCAL_PREVIEW_ONLY_RIGHTS_PENDING",
+  "public_deployment": "NOT_PERFORMED",
+  "data_in_source_kit": false
+}

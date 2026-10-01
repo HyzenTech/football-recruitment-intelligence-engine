@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore a frozen historical WSL snapshot through verified player profiles, explained similarity and recruitment presets.">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self'; base-uri 'none'; object-src 'none'">
+  <title>Football Recruitment Intelligence — Frozen V1 Demo</title>
+  <link rel="icon" href="mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="app.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to analytics</a>
+<header><div class="brand"><span class="mark" aria-hidden="true">FR</span><div><strong>Recruitment intelligence</strong><small>Frozen V1 · historical event analytics</small></div></div><span id="cohort" class="chip">Verifying snapshot…</span></header>
+<div class="preview-notice" role="note"><strong>Local verification preview.</strong> Derived-data publication rights and provider registration remain unresolved. Nothing has been deployed.</div>
+<div class="workspace">
+  <aside><nav aria-label="Analytics views">
+    <button class="active" data-view="explore" aria-current="page" aria-controls="panel-explore">Player Explorer</button>
+    <button data-view="compare" aria-controls="panel-compare">Player Comparison</button>
+    <button data-view="similar" aria-controls="panel-similar">Similar Players</button>
+    <button data-view="rank" aria-controls="panel-rank">Recruitment Search</button>
+  </nav><div class="aside-note"><strong>Evidence before scores</strong><p>Event activity describes a historical cohort. It does not establish overall ability or transfer suitability.</p><span class="badge">220 technical tests</span><p>Expert/scout and predictive validation remain pending.</p></div></aside>
+  <main id="main" tabindex="-1">
+    <div class="intro"><div><p class="eyebrow">FOOTBALL ANALYTICS / VERIFIED SNAPSHOT</p><h1 id="view-title">Player Explorer</h1><p id="view-description">Explore validated minutes, role usage and peer-relative event profiles.</p></div><details class="coverage"><summary>Snapshot &amp; coverage</summary><div id="coverage">Verifying data…</div></details></div>
+    <p class="hosting-note">Local portfolio preview using a frozen verified V1 dataset snapshot. The full analytical pipeline runs in Python; this static interface uses exported V1 artifacts.</p>
+    <div id="global-error" class="message error" role="alert" hidden></div>
+    <div id="workspace-controls" inert>
+    <section id="panel-explore" aria-label="Player Explorer">
+      <div class="controls"><label>Search players<input id="search" type="search" placeholder="Player or team" maxlength="100"></label><label>Position<select id="role"><option value="">All positions</option></select></label><label class="grow">Player / team spell<select id="player"></select></label></div>
+      <div id="profile" aria-live="polite"><p class="empty">Loading verified profiles…</p></div>
+    </section>
+    <section id="panel-compare" aria-label="Player Comparison" hidden>
+      <div class="controls"><label class="grow">First player<select id="compare-a"></select></label><label class="grow">Second player<select id="compare-b"></select></label><label class="grow">Third player (optional)<select id="compare-c"></select></label><button id="compare-run" class="primary">Compare players</button></div>
+      <label class="chart-control">Chart metric<select id="compare-metric"></select></label>
+      <div id="comparison" aria-live="polite"></div>
+    </section>
+    <section id="panel-similar" aria-label="Similar Players" hidden>
+      <div class="controls"><label class="grow">Query player / team spell<select id="similar-player"></select></label><label>Neighbors<input id="similar-k" type="number" min="1" max="10" step="1" value="5" required></label><button id="similar-run" class="primary">Find similar players</button></div>
+      <p class="note">Verified Python neighbors, up to 10 per query. Candidate-only standardization; within-position vectors. The proximity index is neither probability nor ability. Goalkeeper similarity covers distribution only.</p>
+      <div id="similarity" aria-live="polite"></div>
+    </section>
+    <section id="panel-rank" aria-label="Recruitment Search" hidden>
+      <div class="controls"><label class="grow">Verified requirement<select id="preset"></select></label><label>Candidates shown<input id="rank-k" type="number" min="1" max="10" value="10" step="1" required></label><button id="rank-run" class="primary">Show ranked candidates</button></div>
+      <p class="note">Eight verified preset scenarios. Priorities and the common reference population are fixed in each exported Python result. Adjustable weights are available in the full local V1 application.</p>
+      <div id="weights" class="weights" aria-label="Preset priorities"></div>
+      <p class="unavailable">Age, market value, contracts and injury filters are unsupported. Scores express event-activity priorities, not transfer recommendations.</p>
+      <div id="ranking" aria-live="polite"></div>
+    </section>
+    </div>
+    <footer><a class="source-logo" href="https://github.com/hudl/open-data"><img src="statsbomb-logo.png" width="800" height="122" alt="Hudl StatsBomb" loading="lazy"></a>Source: <a href="https://github.com/hudl/open-data" target="_blank" rel="noopener noreferrer">StatsBomb Open Data</a> · WSL 2023/24 · Noncommercial historical analysis.<br>One limited qualitative human review; general model accuracy and transfer suitability have not been established.</footer>
+  </main>
+</div>
+</body></html>

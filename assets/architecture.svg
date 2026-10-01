@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="740" viewBox="0 0 1120 740" role="img" aria-labelledby="title desc">
+<title id="title">Football Recruitment Intelligence Engine — frozen V1 architecture</title>
+<desc id="desc">Pinned StatsBomb inputs pass through canonical mapping, quality-gated minutes, missingness-aware features and positional profiles. Profiles feed explained similarity and weighted recruitment engines. Evaluation checks replay and sensitivity, and a loopback FastAPI interface presents four views. Manifests connect each stage.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#64748b"/></marker></defs>
+<rect width="1120" height="740" rx="20" fill="#f7faf9"/>
+<g font-family="Arial, sans-serif" fill="#172b29">
+<text x="48" y="56" font-size="25" font-weight="700">From football events to explained analytical results</text>
+<text x="48" y="87" font-size="15" fill="#526663">Frozen Python V1 · pinned historical cohort · quality and provenance at every stage</text>
+<g stroke="#b9cbc6" fill="#fff" stroke-width="1.5">
+<rect x="48" y="128" width="304" height="96" rx="12"/><rect x="408" y="128" width="304" height="96" rx="12"/><rect x="768" y="128" width="304" height="96" rx="12"/>
+<rect x="768" y="278" width="304" height="96" rx="12"/><rect x="408" y="278" width="304" height="96" rx="12"/><rect x="48" y="278" width="304" height="96" rx="12"/>
+<rect x="48" y="437" width="304" height="109" rx="12"/><rect x="408" y="437" width="304" height="109" rx="12"/><rect x="768" y="437" width="304" height="109" rx="12"/>
+<rect x="48" y="601" width="1024" height="89" rx="12" fill="#e7f2ed"/>
+</g>
+<g fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)">
+<path d="M352 176H405"/><path d="M712 176H765"/><path d="M920 224V275"/><path d="M768 326H715"/><path d="M408 326H355"/>
+<path d="M200 374V434"/><path d="M230 374V402H560V434"/><path d="M260 374V389H920V434"/>
+<path d="M200 546V598"/><path d="M560 546V598"/>
+</g>
+<g font-size="18" font-weight="700">
+<text x="68" y="160">1. Pinned provider inputs</text><text x="428" y="160">2. Ingestion + canonical records</text><text x="788" y="160">3. Validated presence + minutes</text>
+<text x="788" y="310">4. Missingness-aware features</text><text x="428" y="310">5. Positional normalization</text><text x="68" y="310">6. Player/team-season profiles</text>
+<text x="68" y="471">Explained similarity</text><text x="428" y="471">Recruitment requirements</text><text x="788" y="471">Technical evaluation</text>
+<text x="68" y="633">Verified local interface · FastAPI + HTML / CSS / JavaScript</text>
+</g>
+<g font-size="14" fill="#526663">
+<text x="68" y="187">StatsBomb Open Data · WSL 2023/24</text><text x="68" y="208">Official source cache + source hashes</text>
+<text x="428" y="187">Typed contracts + identity / roster checks</text><text x="428" y="208">Immutable canonical artifacts</text>
+<text x="788" y="187">Intervals + positional exposure</text><text x="788" y="208">Flags, exclusions and quarantine</text>
+<text x="788" y="337">Sufficient statistics + aggregated rates</text><text x="788" y="358">Unknown observations remain unknown</text>
+<text x="428" y="337">Eligibility + distinct-player reference peers</text><text x="428" y="358">Midrank percentiles + category explanations</text>
+<text x="68" y="337">Verified upstream lineage + 41 metrics</text><text x="68" y="358">Coverage, role usage and unavailable states</text>
+<text x="68" y="497">Candidate-only standardization</text><text x="68" y="518">Euclidean distance + contributions</text>
+<text x="428" y="497">Complete benchmark + weighted percentiles</text><text x="428" y="518">Contributions, exclusions and fixed filters</text>
+<text x="788" y="497">Replay / integrity + cohort perturbations</text><text x="788" y="518">Sensitivity evidence, not accuracy</text>
+<text x="68" y="659">Explorer · 2–3-player comparison · Similar Players · Recruitment Search</text>
+<text x="68" y="680">Startup verification · loopback only · requests make no provider calls or analytical writes</text>
+</g>
+<text x="48" y="720" font-size="12" fill="#526663">Versioned manifests link upstream artifacts and configuration. No overall ability score; expert/scout and predictive validation pending.</text>
+</g></svg>

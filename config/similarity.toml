@@ -1,0 +1,16 @@
+schema_version = "1.0"
+definition_version = "similarity-0.6.0"
+status = "IMPLEMENTED"
+scaling = "standard"
+default_top_k = 10
+missing_feature_policy = "require_fixed_complete_vector"
+
+[features]
+GK = ["passes_attempted", "long_passes"]
+CB = ["passes_attempted", "long_passes", "carries", "carry_displacement", "shots", "nonpenalty_xg", "pressures", "interceptions", "tackles", "recoveries", "final_third_actions", "box_actions"]
+FB = ["passes_attempted", "long_passes", "carries", "carry_displacement", "shots", "nonpenalty_xg", "pressures", "interceptions", "tackles", "recoveries", "final_third_actions", "box_actions"]
+DM = ["passes_attempted", "long_passes", "carries", "carry_displacement", "shots", "nonpenalty_xg", "pressures", "interceptions", "tackles", "recoveries", "final_third_actions", "box_actions"]
+CM = ["passes_attempted", "long_passes", "carries", "carry_displacement", "shots", "nonpenalty_xg", "pressures", "interceptions", "tackles", "recoveries", "final_third_actions", "box_actions"]
+AM = ["passes_attempted", "long_passes", "carries", "carry_displacement", "shots", "nonpenalty_xg", "pressures", "interceptions", "tackles", "recoveries", "final_third_actions", "box_actions"]
+W = ["passes_attempted", "long_passes", "carries", "carry_displacement", "shots", "nonpenalty_xg", "pressures", "interceptions", "tackles", "recoveries", "final_third_actions", "box_actions"]
+ST = ["passes_attempted", "long_passes", "carries", "carry_displacement", "shots", "nonpenalty_xg", "pressures", "interceptions", "tackles", "recoveries", "final_third_actions", "box_actions"]

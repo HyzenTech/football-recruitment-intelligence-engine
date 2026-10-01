@@ -1,0 +1,13 @@
+* text=auto eol=lf
+# Preserve the canonical V1 bytes, including original mixed line endings.
+src/** -text
+config/** -text
+tests/** -text
+scripts/** -text
+uv.lock -text
+*.jpg binary
+*.png binary
+*.pdf binary
+*.whl binary
+*.zip binary
+*.gz binary

@@ -1,0 +1,89 @@
+schema_version = "1.0"
+definition_version = "ranking-0.7.0"
+status = "IMPLEMENTED"
+method = "weighted_peer_percentiles"
+missing_feature_policy = "require_common_complete_feature_set"
+age_filter_enabled = false
+market_value_filter_enabled = false
+# Global ability weights are intentionally empty. Use a named scouting requirement.
+weights = {}
+
+[requirements.GK_distribution]
+name = "GK distribution"
+position_group = "GK"
+minimum_minutes = 450.0
+top_k = 10
+[requirements.GK_distribution.weights]
+passes_attempted = 2.0
+long_passes = 1.0
+
+[requirements.CB_defensive_activity]
+name = "CB defensive activity"
+position_group = "CB"
+minimum_minutes = 450.0
+top_k = 10
+[requirements.CB_defensive_activity.weights]
+interceptions = 3.0
+tackles = 2.0
+long_passes = 1.0
+
+[requirements.FB_carrying_activity]
+name = "FB carrying activity"
+position_group = "FB"
+minimum_minutes = 450.0
+top_k = 10
+[requirements.FB_carrying_activity.weights]
+carries_into_final_third = 3.0
+carry_displacement = 2.0
+pressures = 1.0
+
+[requirements.DM_ball_winning_activity]
+name = "DM ball winning activity"
+position_group = "DM"
+minimum_minutes = 450.0
+top_k = 10
+[requirements.DM_ball_winning_activity.weights]
+interceptions = 3.0
+tackles = 2.0
+passes_attempted = 1.0
+
+[requirements.CM_progression_and_creation]
+name = "CM progression and creation"
+position_group = "CM"
+minimum_minutes = 450.0
+top_k = 10
+[requirements.CM_progression_and_creation.weights]
+progressive_passes = 3.0
+progressive_carries = 3.0
+shot_linked_xg_assisted = 2.0
+pass_completion_pct = 2.0
+
+[requirements.AM_creation_activity]
+name = "AM creation activity"
+position_group = "AM"
+minimum_minutes = 450.0
+top_k = 10
+[requirements.AM_creation_activity.weights]
+shot_assists = 3.0
+shot_linked_xg_assisted = 2.0
+carries_into_box = 1.0
+
+[requirements.W_carrying_and_shooting]
+name = "W carrying and shooting"
+position_group = "W"
+minimum_minutes = 450.0
+top_k = 10
+[requirements.W_carrying_and_shooting.weights]
+carries_into_box = 3.0
+nonpenalty_xg = 2.0
+shots = 1.0
+
+[requirements.ST_shooting_activity]
+name = "ST shooting activity"
+position_group = "ST"
+minimum_minutes = 450.0
+top_k = 10
+[requirements.ST_shooting_activity.weights]
+nonpenalty_xg = 3.0
+shots_on_target = 2.0
+shots = 1.0

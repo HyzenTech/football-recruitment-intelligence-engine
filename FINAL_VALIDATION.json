@@ -1,0 +1,110 @@
+{
+  "status": "V1_FINALIZED",
+  "date": "2026-10-01",
+  "package_version": "1.0.0",
+  "source_commit": "9e2386ca62832ef3b7ef784caae794c32b784ac5",
+  "canonical_artifact": "football-recruitment-engine-v1-final.zip",
+  "checksum_file": "football-recruitment-engine-v1-final.zip.sha256",
+  "technical_validation": "COMPLETE_WITHIN_DECLARED_V1_SCOPE",
+  "tests_passed": 220,
+  "test_failures": 0,
+  "test_errors": 0,
+  "lint": "PASS",
+  "format": "PASS",
+  "upstream_test_warning": "FastAPI/Starlette TestClient-httpx deprecation; assertions pass",
+  "reproducibility": {
+    "status": "VERIFIED",
+    "clean_builds": 2,
+    "clean_output_directories": true,
+    "input_mode": "verified pinned raw cache, offline",
+    "identical_receipts": true,
+    "identical_all_seven_stage_manifests": true,
+    "unchanged_from_v1_baseline": true,
+    "profile_manifest_sha256": "166bde6549efa2e42cff2ae9a1865fb707b56082cb6f67464d6ec950f653763a",
+    "stages": {
+      "ingestion": {
+        "manifest_sha256": "380994c3de5306aad9fd7f0e09086264a26398d7072e62015df6d425bd94c935",
+        "manifest_path": "data/interim/statsbomb/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/37-281/statsbomb-canonical-0.2.1/manifests/380994c3de5306aad9fd7f0e09086264a26398d7072e62015df6d425bd94c935.json"
+      },
+      "minutes": {
+        "source_manifest_sha256": "380994c3de5306aad9fd7f0e09086264a26398d7072e62015df6d425bd94c935",
+        "validation_manifest_path": "data/processed/statsbomb/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/37-281/presence-0.3.0/manifests/8618e469e04a0f959b887ea02a2310a0d4a022657fd9b714f2380227d0001687.json",
+        "validation_manifest_sha256": "8618e469e04a0f959b887ea02a2310a0d4a022657fd9b714f2380227d0001687"
+      },
+      "features": {
+        "upstream_minutes_manifest_sha256": "8618e469e04a0f959b887ea02a2310a0d4a022657fd9b714f2380227d0001687",
+        "source_manifest_sha256": "380994c3de5306aad9fd7f0e09086264a26398d7072e62015df6d425bd94c935",
+        "feature_manifest_sha256": "4d81284077268ca70507bc50128b9f339c0b6828e93b401c6bef86a2ab818b4e",
+        "feature_manifest_path": "data/processed/statsbomb/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/37-281/features-0.4.0/manifests/4d81284077268ca70507bc50128b9f339c0b6828e93b401c6bef86a2ab818b4e.json"
+      },
+      "profiles": {
+        "source_feature_manifest_sha256": "4d81284077268ca70507bc50128b9f339c0b6828e93b401c6bef86a2ab818b4e",
+        "source_manifest_sha256": "380994c3de5306aad9fd7f0e09086264a26398d7072e62015df6d425bd94c935",
+        "profile_manifest_sha256": "166bde6549efa2e42cff2ae9a1865fb707b56082cb6f67464d6ec950f653763a",
+        "profile_manifest_path": "data/processed/statsbomb/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/37-281/profiles-0.5.0/manifests/166bde6549efa2e42cff2ae9a1865fb707b56082cb6f67464d6ec950f653763a.json"
+      },
+      "similarity": {
+        "source_profile_manifest_sha256": "166bde6549efa2e42cff2ae9a1865fb707b56082cb6f67464d6ec950f653763a",
+        "similarity_manifest_sha256": "75563e30f0b243a38b5fdac728ba456fbeae544f5ef91ca542d6fd602be3bd7d",
+        "similarity_manifest_path": "data/processed/statsbomb/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/37-281/similarity-0.6.0/manifests/75563e30f0b243a38b5fdac728ba456fbeae544f5ef91ca542d6fd602be3bd7d.json"
+      },
+      "ranking": {
+        "source_profile_manifest_sha256": "166bde6549efa2e42cff2ae9a1865fb707b56082cb6f67464d6ec950f653763a",
+        "ranking_manifest_sha256": "2d8bdd24fbbf400a18cb7a444d76779a580071faecea560d26ddddb4c2d4b907",
+        "ranking_manifest_path": "data/processed/statsbomb/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/37-281/ranking-0.7.0/manifests/2d8bdd24fbbf400a18cb7a444d76779a580071faecea560d26ddddb4c2d4b907.json"
+      },
+      "evaluation": {
+        "source_profile_manifest_sha256": "166bde6549efa2e42cff2ae9a1865fb707b56082cb6f67464d6ec950f653763a",
+        "evaluation_manifest_sha256": "fc466587ca508108ba33d32f1490d1a4d3df2dd488776d841048adc9dcd02438",
+        "evaluation_manifest_path": "data/processed/statsbomb/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/37-281/evaluation-0.8.0/manifests/fc466587ca508108ba33d32f1490d1a4d3df2dd488776d841048adc9dcd02438.json"
+      }
+    },
+    "configuration_sha256": {
+      "cohorts.toml": "ecda1c9075ee3ce741edd4d6a2d75103582faeb4381a30a8fc5b4a647d9267fd",
+      "dataset.toml": "037345866e76c25859073f2e172305c38437b02f44c4d011b922c4e198455652",
+      "metrics.toml": "70db4b875f7e9c43bf433590b7552b4fa4cc34a9383e7fefd1e5762c832e0c5e",
+      "ranking.toml": "c8a58addd99a089d120457c698cf3d0df30f953d4524a72a17f569b79f533aa4",
+      "similarity.toml": "c5a41b6a945b17de2f998c22b0ac89ce7237ffea1d1e583691e453702fedb0b9"
+    }
+  },
+  "installed_wheel": {
+    "status": "VERIFIED",
+    "installed_wheel_outside_checkout": true,
+    "locked_runtime_dependencies": true,
+    "packaged_html_css_js_verified": true,
+    "profile_count": 303,
+    "unique_players": 295,
+    "eligible_profiles": 139,
+    "full_cohort": true,
+    "package_version": "1.0.0",
+    "wheel_sha256": "83346a875b4f2a57b9ebc7f02b292f35c47f1898215ac68535531e8b849a333f",
+    "installed_package_files_match_final_wheel": true
+  },
+  "human_qualitative_review": {
+    "case": "CASE-03",
+    "raw_review": "COMPLETED",
+    "evidence_coverage": "LIMITED",
+    "observations": 30,
+    "timeline": "YOUTUBE_REPLAY",
+    "viewing": "SAMPLED_WITH_SKIPS",
+    "continuous_duration": "unknown",
+    "ratings": "not assessed",
+    "structural_check": "PASS_WITH_SIX_EXPLICIT_WARNINGS",
+    "additional_viewing_required": false
+  },
+  "expert_scout_validation": "PENDING_NOT_PERFORMED",
+  "predictive_validation": "PENDING_NOT_PERFORMED",
+  "general_accuracy_established": false,
+  "transfer_suitability_established": false,
+  "analytical_definitions_weights_and_rankings_changed": false,
+  "v1_1_started": false,
+  "package_exclusions": [
+    "provider data",
+    "player-derived outputs",
+    "private review notes",
+    "footage",
+    "credentials",
+    "environments",
+    "caches"
+  ]
+}

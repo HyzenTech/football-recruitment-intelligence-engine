@@ -1,0 +1,14 @@
+{
+  "asset": "hudl-statsbomb-logo-default",
+  "source": "https://statsbomb.com/media-pack/",
+  "portal": "https://hudl.bynder.com/web/3995540F-A52E-4EB3-855B7726FCBC2983?viewType=grid&mediaId=27F9436E-E86A-4C0C-AF348B1C165B6D7B",
+  "portal_usage_rights": "External Use Approved",
+  "checked": "2026-10-01",
+  "format": "PNG",
+  "dimensions": [
+    800,
+    122
+  ],
+  "sha256": "d1c382fa66c50d923bda26057e206a4b0d25e1b8a2d5ade26fb05267f12a1146",
+  "note": "Official portal preview rendition, unchanged bytes; original listed as 2258x344. Third-party trademark/asset, excluded from project MIT license. No endorsement and no derived-data permission inferred."
+}

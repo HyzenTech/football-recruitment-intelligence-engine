@@ -1,0 +1,20 @@
+schema_version = "1.0"
+status = "IMPLEMENTED"
+minimum_minutes = 450.0
+minimum_peer_count = 10
+minutes_convention = "elapsed_including_stoppage"
+unknown_minutes_policy = "exclude"
+unknown_birth_date_policy = "exclude_from_age_filtered_queries"
+small_cohort_policy = "suppress_percentiles_and_ranking"
+role_mapping_version = "draft-0.1"
+dominant_role_minimum_share = 0.6
+
+[position_groups]
+GK = [1]
+CB = [3, 4, 5]
+FB = [2, 6, 7, 8]
+DM = [9, 10, 11]
+CM = [13, 14, 15]
+AM = [18, 19, 20]
+W = [12, 16, 17, 21]
+ST = [22, 23, 24, 25]

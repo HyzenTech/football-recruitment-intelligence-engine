@@ -1,0 +1,29 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+.env
+.env.*
+!.env.example
+data/
+outputs/
+work/
+*.log
+.DS_Store
+Thumbs.db
+pytest-of-*/
+# Derived static snapshots remain private until provider publication scope is resolved.
+demo/data/
+
+# Keep local provider storage and analytical extracts out of public Git.
+*.sqlite
+*.sqlite3
+*.db
+*.parquet
+*.jsonl
