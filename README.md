@@ -6,41 +6,29 @@ V1 transforms raw events into positional player profiles, similarity search and
 explainable recruitment rankings. It helps an analyst inspect the benchmark,
 evidence gaps and trade-offs behind each result.
 
-**[Run locally](#reproduce-and-run) Â· [Architecture](docs/ARCHITECTURE.md) Â·
-[Engineering case study](docs/PORTFOLIO.md) Â· [Validation](docs/VALIDATION.md)**
-
-**Public release: source code, engineering documentation and a case study.**
-The analytical application runs locally. This repository contains no provider
-datasets, derived player-data JSON or screenshots containing player statistics.
+**V1 complete · 226 tests passing · Reproducible locally · MIT code**
 
 **[Portfolio project](https://hyzentech.github.io/projects/football-recruitment-intelligence-engine/)
-· [Technical case study](https://hyzentech.github.io/blog/football-recruitment-intelligence-engine/)**
+· [Technical case study](https://hyzentech.github.io/blog/football-recruitment-intelligence-engine/)
+· [v1.0.0 release](https://github.com/HyzenTech/football-recruitment-intelligence-engine/releases/tag/v1.0.0)
+· [Run locally](#reproduce-and-run)**
 
-A [static interface and exporter](docs/STATIC_DEMO.md) were verified locally, but
-the real-data browser demo is not publicly hosted. See [release scope](docs/PUBLIC_RELEASE.md).
+I built the end-to-end Python pipeline, strict data contracts, quality-gated
+features, positional normalization, explained statistical retrieval and weighted
+ranking, plus four analytical views and reproducibility checks. Numerical methods
+use Python's standard library; this is not a trained predictive scouting model.
 
-![Actual local V1 application in an empty-search state, without player data](docs/images/interface-empty.jpg)
-
-![Hudl StatsBomb official attribution logo](assets/statsbomb-logo.png)
-
-Data source: [StatsBomb Open Data](https://github.com/hudl/open-data). Independent,
-noncommercial historical research; no provider endorsement. Logo rights remain
-separate from MIT; see [asset provenance](docs/STATSBOMB_LOGO_PROVENANCE.json).
+The interactive analytical application is reproducible locally from this source.
+The public presentation includes architecture, methods and verification evidence;
+provider datasets and derived player-data files are excluded. See [release scope](docs/PUBLIC_RELEASE.md).
 
 ![V1 architecture from pinned source through validated profiles to explained outputs](assets/architecture.svg)
 
-**V1 is finalized through Phase 10; technical validation is complete for its
-declared local scope.** One limited human qualitative review, **CASE-03**, is
-completed. Expert/scout validation and predictive validation remain pending.
-This does **not** establish general model accuracy or transfer suitability.
-The system preserves source provenance, quality exclusions and missing values;
-scores describe declared activity criteria within one historical cohort.
+![Hudl StatsBomb official attribution logo](assets/statsbomb-logo.png)
 
-The canonical package is **`football-recruitment-engine-v1-final.zip`**, with
-adjacent **`football-recruitment-engine-v1-final.zip.sha256`**. Older phase/V1 ZIPs
-are historical checkpoints. See [PROJECT_HANDOFF.md](PROJECT_HANDOFF.md) for the
-complete handoff and [NEXT_STEPS.md](NEXT_STEPS.md) for deferred work. V1.1 has not
-started.
+Data source: [StatsBomb Open Data](https://github.com/hudl/open-data).
+Independent, noncommercial historical research. Provider data and logo retain
+separate terms; see [DATA_LICENSE.md](DATA_LICENSE.md).
 
 ## Why this project
 
@@ -58,8 +46,10 @@ population. It exposes evidence gaps instead of filling them with invented stats
 | Similar Players | Find nearby event profiles | Distance, proximity index, metric differences and self-exclusion |
 | Recruitment Search | Rank candidates for explicit priorities | Editable weights, percentiles, contributions and exclusions |
 
-The screenshot above is an actual V1 capture in an empty-search state. Images
-containing player statistics are excluded from this public release.
+![Actual local V1 application in an empty-search state](docs/images/interface-empty.jpg)
+
+Actual application capture with an empty search. The full local application supports
+the four views above; this public image contains no player statistics.
 
 ## Reproduce and run
 
@@ -172,7 +162,7 @@ See [minutes](docs/MINUTES.md) and [features](docs/FEATURES.md).
 
 ## Methods and explanations
 
-**Features:** counts/sums use `90 Ã— total / validated minutes`; means and
+**Features:** counts/sums use `90 × total / validated minutes`; means and
 percentages retain their native units. Elapsed minutes include stoppage time and
 are derived from presence intervals. Progressive action thresholds are explicit
 project conventions. Creation includes shot-linked xG assisted rather than an
@@ -206,7 +196,7 @@ weaker requested dimensions. Unsupported filters are rejected. [Ranking contract
 
 ## Evaluation and practical limits
 
-220 tests pass on the tested Windows/Python 3.12 environment. Combined checks
+226 tests pass on the tested Windows/Python 3.12 environment: 220 frozen analytical tests and six static-export boundary tests. Combined checks
 cover 1,280 baseline neighbor rows and 60 ranking rows. Replay verifies outputs
 against upstream artifacts, and HTTP calculations match the offline engines.
 The [Phase 8 checkpoint](docs/PHASE_8.md) and [evaluation protocol](docs/EVALUATION.md)
@@ -252,7 +242,7 @@ are excluded. No package registry publication is performed.
 
 ## Human review: CASE-03
 
-A limited qualitative review of Kadeisha Buchanan found agreement around
+One limited qualitative centre-back review found agreement around
 interceptions and tackling/defensive activity. It also surfaced positioning
 mistakes, risky possession decisions, pressure context, score state and the
 consequences of decisions that event-based activity scoring cannot adequately
@@ -279,8 +269,8 @@ Raw review notes remain private. [Review protocol](docs/FOOTBALL_VALIDATION.md).
 
 ## Reproducibility and release evidence
 
-The canonical final archive and checksum remain unchanged. The public preparation
-has separate [baseline provenance](docs/BASELINE_PROVENANCE.json) and
+Download the audited source and packages from the [v1.0.0 release](https://github.com/HyzenTech/football-recruitment-intelligence-engine/releases/tag/v1.0.0).
+The original canonical archive remains unchanged. The public release has separate [baseline provenance](docs/BASELINE_PROVENANCE.json) and
 [validation summary](docs/VALIDATION.md). All analytical source, original tests and
 configurations are hash-checked against the original. Publication files have
 their own manifest; it is not the canonical archive's original manifest.
